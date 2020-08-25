@@ -1,1 +1,3 @@
-# sistemas-operacionais
+# Sistemas Operacionais
+
+Prof. Eduardo Ono
