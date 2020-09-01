@@ -3,7 +3,7 @@
 Prof. Eduardo Ono
 
 
-## Instalação do S.O. Ubuntu 20.04 LTS
+## Instalação do Ubuntu 20.04 no Windows 10
 
 #### Opção 1: Dual Boot
 - [Dioliux] https://youtu.be/6D6L9Wml1oY (14:17)
@@ -11,7 +11,8 @@ Prof. Eduardo Ono
 #### Opção 2: Máquina Virtual (VirtualBox)
 - [DevSuperior] https://youtu.be/wGwikwPrACA (23:25)
 
-#### Opção 3: Virtualização pelo WSL 2
+#### Opção 3: Virtualização do Ubuntu (sem interface gráfica) altravés do WSL 2
+- [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)
 - [David Bombal] https://youtu.be/_fntjriRe48 (20:33)
 
 
@@ -22,4 +23,3 @@ Prof. Eduardo Ono
 
 #### Bash
 - https://goalkicker.com/BashBook/
-
