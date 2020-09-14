@@ -2,6 +2,7 @@
 
 Prof. Eduardo Ono
 
+<br>
 
 ## Instalação do Ubuntu 20.04 no Windows 10
 
@@ -15,6 +16,7 @@ Prof. Eduardo Ono
 - [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)
 - [David Bombal] https://youtu.be/_fntjriRe48 (20:33)
 
+<br>
 
 ## Bibliografia
 
@@ -23,3 +25,9 @@ Prof. Eduardo Ono
 
 #### Bash
 - https://goalkicker.com/BashBook/
+
+<br>
+
+## Filmes recomendados
+
+* Steve Jobs (2015) | [YouTube](https://youtu.be/aEr6K1bwIVs) (Trailer)
