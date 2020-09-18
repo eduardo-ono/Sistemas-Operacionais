@@ -8,4 +8,4 @@
 
 ## Fundamentos
 
-* [ CrashCourse] Files & File Systems: Crash Course Computer Science #20 | [YouTube](https://youtu.be/KN8YgJnShPM) (12:02)
+* [CrashCourse] Files & File Systems: Crash Course Computer Science #20 | [YouTube](https://youtu.be/KN8YgJnShPM) (12:02)

@@ -4,6 +4,10 @@ Prof. Eduardo Ono
 
 <br>
 
+## Descrição
+
+## Conteúdo
+
 ## Instalação do Ubuntu 20.04 no Windows 10
 
 #### Opção 1: Dual Boot
@@ -19,6 +23,9 @@ Prof. Eduardo Ono
 <br>
 
 ## Bibliografia
+<br>
+
+* TANENBAUM, A. S.; BOS, H. [Sistemas Operacionais Modernos, 4 ed.](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), 2016.
 
 #### Linux
 - https://goalkicker.com/LinuxBook/
@@ -29,5 +36,7 @@ Prof. Eduardo Ono
 <br>
 
 ## Filmes recomendados
+<br>
 
+* Jobs (2013) | [YouTube](https://youtu.be/SH1jKZwcS9Y) (Trailer)
 * Steve Jobs (2015) | [YouTube](https://youtu.be/aEr6K1bwIVs) (Trailer)
