@@ -1,4 +1,4 @@
-# Sistemas Operacionais
+## Sistemas Operacionais - Conteúdo
 
 Prof. Eduardo Ono
 
@@ -44,3 +44,8 @@ Prof. Eduardo Ono
 
 - [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
 - [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+
+### Vídeos Recomendados
+<br>
+
+* [Joseph Delgadillo] [O Curso Completo de Linux: Iniciante para o Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak) (7:23:52)

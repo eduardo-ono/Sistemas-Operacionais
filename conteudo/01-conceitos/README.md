@@ -1,11 +1,20 @@
-## Sistemas Operacionais - Conceitos
+# Sistemas Operacionais - Conceitos
 
 Prof. Eduardo Ono
 
 <br>
 
-### História
+## Definição
+
+    Um Sistema Operacional é um conjunto de ...
+
 <br>
+
+
+## Linux
+<br>
+
+* http://linuxcommand.org/lc3_lts0040.php
 
 <br>
 
@@ -24,6 +33,11 @@ Prof. Eduardo Ono
 
 * [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
 * [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+
+<br>
+
+## S.O. Microsoft Windows
+<br>
 
 ### Bibliografia
 <br>
