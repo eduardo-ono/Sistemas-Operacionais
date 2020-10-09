@@ -43,4 +43,4 @@ O vetor _argv_ armazena pelo menos uma string na posição 0, que corresponde ao
 
 ## Bibliografia
 
-
+* [C Notes for Professionals](https://goalkicker.com/CBook/) (PDF)

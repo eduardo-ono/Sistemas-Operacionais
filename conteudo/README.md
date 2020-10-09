@@ -7,25 +7,44 @@ Prof. Eduardo Ono
 ## Conteúdo Programático
 <br>
 
-* Sistemas Operacionais
-    * Conceitos
-    * S.O. Microsoft Windows
-    * S.O. Linux - Ubuntu
-* CLI - Interface de Linha de Comando
-    * Comandos do Bash (Terminal Linux)
-    * Prompt de Comando (Windows)
-    * Arquivos de Lote - BAT (Windows)
-    * Scripts em Bash (Linux)
-    * Parâmetros de um programa em C por linha de comando
-* Gerenciamento de Processos
-    * Concorrência e Paralelismo
-    * Processos e Threads
-    * Threads em Linguagem C (POSIX)
-    * Semáforos e Mutex
-* Gerenciamento de Memória
-* Gerenciamento de Arquivos
-    * Sistemas de Arquivos
-* Gerenciamento de Periféricos
+> ### Sistemas Operacionais
+> Aula | Data | Conteúdo
+> ---  | ---  | ---
+> 01   | ---  | Conceitos
+> 02   | ---  | Microsoft Windows
+> 03   | ---  | Linux
+> ---
+> ### Interface de Linha de Comando (CLI)
+> Aula | Data | Conteúdo
+> --- | --- | ---
+> 04  | --- | Comandos do Bash (Terminal Linux)
+> --- | --- | Prompt de Comando (Windows)
+> --- | --- | Arquivos de Lote - BAT (Windows)
+> --- | --- | Scripts em Bash (Linux)
+> --- | --- | Parâmetros de um programa em C por linha de comando
+> ---
+> ### Gerenciamento de Processos
+> Aula | Data  | Conteúdo
+> ---  | ---   | ---
+> ---  | ---   | Concorrência e Paralelismo
+> ---  | ---   | Processos e Threads
+> ---  | ---   | Threads em Linguagem C (POSIX)
+> ---  | 28/09 | Exclusão Mútua
+> ---  | ---   | Semáforos e Mutex
+> ---
+> ### Gerenciamento de Memória
+> Aula | Data  | Conteúdo
+> ---  | ---   | ---
+> ---
+> ### Gerenciamento de Arquivos
+> Aula | Data  | Conteúdo
+> ---  | ---   | ---
+> ---  | ---   | Sistemas de Arquivos
+> ---
+> ### Gerenciamento de Periféricos
+> Aula | Data  | Conteúdo
+> --- | --- | ---
+> ---
 
 <br>
 

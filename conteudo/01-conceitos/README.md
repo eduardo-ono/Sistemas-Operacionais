@@ -16,6 +16,8 @@ Prof. Eduardo Ono
 
 * http://linuxcommand.org/lc3_lts0040.php
 
+* [Bóson Treinamentos] [Por que é importante aprender Linux](https://www.youtube.com/watch?v=UsHiWIgxj2M) (YouTube, 18:52)
+
 <br>
 
 ### Instalação do Ubuntu 20.04 no Windows 10
@@ -36,10 +38,10 @@ Prof. Eduardo Ono
 
 <br>
 
-## S.O. Microsoft Windows
+## Microsoft Windows
 <br>
 
-### Bibliografia
+## Bibliografia
 <br>
 
 * [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/) (PDF)

@@ -1,6 +1,6 @@
 /*
- * An·lise de desempenho utilizando threads em linguagem C (padr„o POSIX).
- * Programa (n„o otimizado) que determina todos os divisores de um inteiro.
+ * An√°lise de desempenho utilizando threads em linguagem C (padr√£o POSIX).
+ * Programa (n√£o otimizado) que determina todos os divisores de um inteiro.
  * N = 4
  *
  * Copyright(c) Eduardo Ono.
@@ -48,4 +48,3 @@ int main()
 	
 	return 0;
 }
-

@@ -28,6 +28,7 @@ Prof. Eduardo Ono
 <br>
 
 * [Traversy Media] [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw) (YouTube, 32:18)
+* [Derek Banas] [Shell Scripting Tutorial](https://www.youtube.com/watch?v=hwrnmQumtPw) (YouTube, 59:11)
 * [Steven Gordon] [Linux Command Line - Bash Scripting](https://www.youtube.com/watch?v=Aloc9UdhsC4) (YouTube, 1:07:08)
 * [Joe Collins] [A Beginner's Introduction to BASH Shell Scripting](https://www.youtube.com/watch?v=_n5ZegzieSQ) (YouTube, 44:23)
 

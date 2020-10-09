@@ -1,4 +1,4 @@
-## Sistemas Operacionais - Gerenciamento de Processos
+## Sistemas Operacionais > Gerenciamento de Processos > Concorrência e Paralelismo
 
 Prof. Eduardo Ono
 

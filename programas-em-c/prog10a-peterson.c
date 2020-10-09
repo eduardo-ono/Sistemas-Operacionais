@@ -1,13 +1,15 @@
-// Algoritmo de Peterson para soluÁ„o de exclus„o m˙tua
+// Algoritmo de Peterson para solu√ß√£o de exclus√£o m√∫tua
+//
+// Copyright(c) 2020, Eduardo Ono.
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <conio.h>
 
-// Vari·veis globais
+// Vari√°veis globais
 int _valor;
-int flag[2] = { 0, 0 };  // flag È um vetor de booleanos
+int flag[2] = { 0, 0 };  // flag √© um vetor de booleanos
 int turno = 0;  // booleano, turno significa "vez"
 
 void* f( void *p )
@@ -18,17 +20,17 @@ void* f( void *p )
 	for ( i = 0; i < 10; i++ )
 	{
 		// Algoritmo de Peterson
-		flag[id] = 1;  // Quero entrar na Regi„o CrÌtica
+		flag[id] = 1;  // Quero entrar na Regi√£o Cr√≠tica
 		turno = !id;  // Passo a vez para o outro
-		// Enquanto o outro quer entrar e n„o È minha vez, aguardo...
+		// Enquanto a outra thread quiser entrar e n√£o √© minha vez, aguardo...
 		while ( flag[!id] == 1 && turno != id ) ;
 	
-		// InÌcio da regi„o crÌtica
+		// In√≠cio da Regi√£o Cr√≠tica
 		_valor = id;
 		if ( id == 1 ) printf( "\t\t" );
 		printf( "ID: %d\t %d\n", id, _valor );
-	// Fim da regi„o crÌtica
-		flag[id] = 0;  // N„o quero entrar na regi„o crÌtica
+		// Fim da Regi√£o Cr√≠tica
+		flag[id] = 0;  // N√£o quero entrar na Regi√£o Cr√≠tica
 	} // for
 
 	return NULL;
@@ -48,4 +50,3 @@ int main()
 	
 	return 0;
 }
-
