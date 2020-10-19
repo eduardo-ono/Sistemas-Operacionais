@@ -27,10 +27,10 @@ Prof. Eduardo Ono
 
 * TANENBAUM, A. S.; BOS, H. [Sistemas Operacionais Modernos, 4 ed.](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), 2016.
 
-#### Linux
+### Linux
 - https://goalkicker.com/LinuxBook/
 
-#### Bash
+### Bash
 - https://goalkicker.com/BashBook/
 
 <br>
