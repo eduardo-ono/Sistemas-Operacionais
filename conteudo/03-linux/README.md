@@ -5,25 +5,20 @@ Prof. Eduardo Ono
 <br>
 
 ## Conceitos
-<br>
 
 > **Linux** é o kernel de um sistema operacinal, ou seja o conjunto de gerenciadores dos principais recursos do sistema.
-
-<br>
 
 > O Ubuntu é uma das principais e mais utilizadas distribuições Linux utilizadas. É mantida pela Canonical.
 
 <br>
 
 ## Vídeos Recomendados
-<br>
 
 * [Bóson Treinamentos] [Por que é importante aprender Linux](https://www.youtube.com/watch?v=UsHiWIgxj2M) (YouTube, 18:52)
 
 <br>
 
 ## Instalação do Ubuntu 20.04 no Windows 10
-<br>
 
 > ### Opção 1: Dual Boot
 > * [Dioliux] https://youtu.be/6D6L9Wml1oY (14:17)
@@ -42,6 +37,6 @@ Prof. Eduardo Ono
 <br>
 
 ## Bibliografia
-<br>
 
+* CANNON, Jason. [Linux Succinctly](https://www.syncfusion.com/ebooks/linux), 94p, 2014.
 * [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/) (PDF)

@@ -1,18 +1,20 @@
-# Sistemas Operacionais - Conceitos
+### Sistemas Operacionais
+
+# Conceitos e Aplicações
 
 Prof. Eduardo Ono
 
 <br>
 
-## Definição
+## Conceitos
 
-    Um Sistema Operacional é um conjunto de ...
+    Um Sistema Operacional é um conjunto de gerenciadores dos componentes de um computador. Também fornece uma interface para que o usuário tenha acesso a esses componentes.
+
+* [CrashCourse] [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) (YouTube, 13:35, Jun/2017)
 
 <br>
-
 
 ## Linux
-<br>
 
 * http://linuxcommand.org/lc3_lts0040.php
 
@@ -21,7 +23,6 @@ Prof. Eduardo Ono
 <br>
 
 ### Instalação do Ubuntu 20.04 no Windows 10
-<br>
 
 #### Opção 1: Dual Boot
 
@@ -39,9 +40,9 @@ Prof. Eduardo Ono
 <br>
 
 ## Microsoft Windows
+
 <br>
 
 ## Bibliografia
-<br>
 
 * [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/) (PDF)

@@ -4,6 +4,12 @@ Prof. Eduardo Ono
 
 <br>
 
+## Fundamentos
+
+* [CrashCourse] [Keyboards & Command Line Interfaces: Crash Course Computer Science #22](https://www.youtube.com/watch?v=4RPtJ9UyHS0) (YouTube, 11:23, Ago/2017)
+
+<br>
+
 ### Parâmetros recebidos por um programa em C através da linha de comando
 
 ```c
