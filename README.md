@@ -15,7 +15,7 @@ Prof. Eduardo Ono
 > ---  | ---   | ---
 > 01   | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
 > 02   | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais
-> ---
+>
 > ### Interface de Linha de Comando (CLI)
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
@@ -24,7 +24,7 @@ Prof. Eduardo Ono
 > 04   | 16/03 | Arquivos de Lote - BAT (Windows)
 > ---  | ---   | Scripts em Bash (Linux)
 > 05   | 23/03 | Parâmetros de um programa em C por linha de comando
-> ---
+>
 > ### Gerenciamento de Processos
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
@@ -33,23 +33,23 @@ Prof. Eduardo Ono
 > ---  | ---   | Threads em Linguagem C (POSIX)
 > ---  | ---   | Exclusão Mútua
 > ---  | ---   | Semáforos e Mutex
-> ---
+>
 > ### Gerenciamento de Memória
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
 > ---  | ---   | Memória Principal
 > ---  | ---   | Memória Virtual
-> ---
+>
 > ### Gerenciamento de Arquivos
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
 > ---  | ---   | Sistemas de Arquivos
-> ---
+>
 > ### Gerenciamento de Periféricos
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
 > ---  | ---   | Sistemas de I/O
-> ---
+>
 > ### Proteção e Segurança
 > Aula | Data  | Conteúdo
 > ---  | ---   | ---
