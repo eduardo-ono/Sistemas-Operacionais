@@ -8,7 +8,7 @@ Prof. Eduardo Ono
 
 ## Conceitos
 
-    Um Sistema Operacional é um conjunto de gerenciadores dos componentes de um computador. Também fornece uma interface para que o usuário tenha acesso a esses componentes.
+    Um _*Sistema Operacional*_ é um conjunto de gerenciadores dos componentes de um computador. Também fornece uma interface para que o usuário tenha acesso a esses componentes.
 
 * [CrashCourse] [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) (YouTube, 13:35, Jun/2017)
 
@@ -46,3 +46,11 @@ Prof. Eduardo Ono
 ## Bibliografia
 
 * [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/) (PDF)
+
+<br>
+
+## Vídeos Recomendados
+
+* [Certificação Linux] [Linus Torvalds responde porque o Linux não é popular no Desktop](https://www.youtube.com/watch?v=kQilgheRZAY) (YouTube, 3:20)
+
+<br>
