@@ -3,16 +3,18 @@
 
 int main(int argc, char* argv[])
 {
-	int dia, mes, ano;
+	int hora, min, seg;
 	char letra;
 	
-	printf("Digite uma data [dd:mm:aaaa]: ");
-	scanf("%d:%d:%d", &dia, &mes, &ano);
+	printf("Digite um tempo [hh:mm:ss]: ");
+	scanf("%d:%d:%d", &hora, &min, &seg);
 	printf("Digite uma letra: ");
+	// fflush(stdin);
 	scanf(" %c", &letra);  // "Considera o Enter inserido no scanf anterior
-	printf("Dia = %02d\n", dia);
-	printf("Mes = %02d\n", mes);
-	printf("Ano = %04d\n", ano);
+	printf("Hora = %02d\n", hora);
+	printf("Min = %02d\n", min);
+	printf("Seg = %04d\n", seg);
+	printf("%c\n", letra);
+	
 	return 0;
 }
-

@@ -86,7 +86,7 @@ Prof. Eduardo Ono
 
 ## Bibliografia Complementar
 
-* 
+* TANENBAUM, Andrew S.; WOODHULL, Albert S. [Operating Systems - Design and Implementation, 3. ed.](https://archive.org/details/tanenbaum_woodhull_operating-systems-design-implementation-3rd-edition), Pearson Education, Inc., 2006. 
 
 <br>
 
