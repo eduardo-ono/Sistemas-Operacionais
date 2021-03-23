@@ -49,13 +49,29 @@ Implementar no programa <a href="../programas-em-c/histograma.c">histograma.c</a
 
 <br>
 
-## Aula 04
+## Aula 04: Escalonamento em Sistemas Operacionais do Tipo Batch
+
+  * Introdução ao Escalonamento
+    * Algoritmos de Escalonamento: FCFS e SJF
+    * Referências
+      * [TANENBAUM_2016] Cap. 2.4, 2.4.1 e 2.4.2
+
+  * Revisão de ponteiros em linguagem C
+    * Bibliografia
+      * [REESE_2013] Todos os capítulos
+
+<br>
+
+## Aula 05: Gerenciamento de Processos - Processos e Threads
+
+  * Bibliografia
+    * [SILBERSCHATZ_2018] Cap. 3.1, 3.2 e 3.3
 
 <br>
 
 ## Aula ??: Gerenciamento de Arquivos - Partições
 
-  * Vídeos
+  * Vídeos Recomendados
     * [Diolinux] [O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT)](https://www.youtube.com/watch?v=Vd-CEeoonIM) (YouTube, 9:55, Abr/2019)
 
 <br>

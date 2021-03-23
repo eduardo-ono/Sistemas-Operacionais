@@ -11,25 +11,28 @@ Prof. Eduardo Ono
 ## Conteúdo Programático
 
 | Aula | Data | Conteúdo |
-:-: | :-: | ---
-01   | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
-02   | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais>
+| :-:  | :-:  | ---      |
+| 01 | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
+| 02 | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais>
 ||| **Interface de Linha de Comando (CLI)**
-03   | 02/03 | Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-04   | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| 03 | 02/03 | Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
+| 04 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
 ||| **Gerenciamento de Processos**
-05  | 16/03 | Concorrência e Paralelismo; Processos e Threads
-06  | 23/03 | Escalonamento de Processos; Threads em Linguagem C (POSIX)
-07  | 30/03 | Exclusão Mútua; Semáforos e Mutex
+| 05 | 16/03 | Concorrência e Paralelismo; Processos e Threads
+| 06 | 23/03 | Escalonamento de Processos; Threads em Linguagem C (POSIX)
+| 07 | 30/03 | Região Crítica e Exclusão Mútua
+| 08 | 06/04 | Semáforos e Mutex
 ||| **Gerenciamento de Memória**
-08  | 06/04 | Memória Principal; Memória Virtual
+| 08 | 13/04 | Memória Principal; Memória Virtual
+| 09 | 20/04 | 1a. Avaliação
 ||| **Gerenciamento de Arquivos**
-09  | 13/04 | Sistemas de Arquivos
+| 10 | 27/04 | Sistemas de Arquivos
 ||| **Gerenciamento de Periféricos**
-10  | 20/04 | 1a. Avaliação
-11  | 27/04 | Sistemas de I/O
-||| **Proteção e Segurança**
-12  | ---   | Integridade de Dados
+| 11 | 04/05 | Sistemas de I/O
+||| **Integridade e Segurança**
+| 12 | 11/05 | Integridade e Segurança
+| 13 | 18/05 | Reservado
+| 14 | 25/05 | 2a. Avaliação
 
 <br>
 
@@ -74,14 +77,19 @@ Prof. Eduardo Ono
 
 <br>
 
-## Filmes Recomendados
+## Filmes e Documentários Recomendados
 
-  * Jobs (2013) | [YouTube](https://youtu.be/SH1jKZwcS9Y) (Trailer)
-
-  * Steve Jobs (2015) | [YouTube](https://youtu.be/aEr6K1bwIVs) (Trailer)
+| Trailer | Descrição |
+| :-: | --- |
+| [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013) (YouTube)
+| [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015) (YouTube)
 
 <br>
 
 ## Vídeos Recomendados
 
-  * [60 second] [Um grupo de cinco macacos e dois cientistas](https://www.youtube.com/watch?v=ZAQtwFpkksw) (YouTube, 1:50)
+| Thumb | Descrição |
+| :-: | --- |
+| [![Thumb](https://img.youtube.com/vi/ZAQtwFpkksw/default.jpg)](https://youtu.be/ZAQtwFpkksw) | [60 second] [Um grupo de cinco macacos e dois cientistas](https://www.youtube.com/watch?v=ZAQtwFpkksw) (YouTube, 1:50)
+
+<br>
