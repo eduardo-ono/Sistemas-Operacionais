@@ -6,7 +6,7 @@ Prof. Eduardo Ono
 
 <br>
 
-## Aula 1
+## Aula 01
 
 * Conceitos
 
@@ -18,7 +18,7 @@ Prof. Eduardo Ono
 
 <br>
 
-## Aula 2
+## Aula 02
 
 #### Interpretador de Comandos do Windows (Prompt de Comando) e do Linux (Bash)
 
@@ -28,7 +28,7 @@ Prof. Eduardo Ono
 
 <br>
 
-## Aula 3
+## Aula 03
 
 * Programa em C que exibe um histograma das ocorrências das letras do alfabeto de um arquivo .txt.
 
@@ -49,6 +49,13 @@ Implementar no programa <a href="../programas-em-c/histograma.c">histograma.c</a
 
 <br>
 
-## Aula 4
+## Aula 04
+
+<br>
+
+## Aula ??: Gerenciamento de Arquivos - Partições
+
+  * Vídeos
+    * [Diolinux] [O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT)](https://www.youtube.com/watch?v=Vd-CEeoonIM) (YouTube, 9:55, Abr/2019)
 
 <br>
