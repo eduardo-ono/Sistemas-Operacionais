@@ -12,7 +12,7 @@ int alfabeto[26] = { 0 };
 void contarLetras( FILE* file )
 {
 	char buffer[2048];  // Armazena uma linha do arquivo de texto
-	int i, indice;  // indice: posi��o de uma letra no vetor alfabeto
+	int i, indice;  // indice: posição de uma letra no vetor alfabeto
 	
 	while ( !feof( file ) )
 	{
@@ -22,15 +22,15 @@ void contarLetras( FILE* file )
 		// Percorre o buffer letra a letra
 		for ( i = 0; i < strlen( buffer ); i++ )
 		{
-			// Converte uma letra min�scula para mai�scula
+			// Converte uma letra minúscula para maiúscula
 			if ( buffer[i] >= 'a' && buffer[i] <= 'z' )
 				buffer[i] = (char)toupper( buffer[i] );
-				// "Casting" recomend�vel pois toupper() retorna um int
+				// "Casting" recomendável pois toupper() retorna um int
 
 			// Incrementa a quantidade de uma letra no vetor alfabeto
 			if ( buffer[i] >= 'A' && buffer[i] <= 'Z' )
 			{
-				// Localiza a posi��o (�ndice) da letra no vetor alfabeto
+				// Localiza a posição (índice) da letra no vetor alfabeto
 				indice = buffer[i] - 65;  // char 'A' = int 65 na Tabela ASCII
 				++alfabeto[indice];
 			}
@@ -58,17 +58,17 @@ int main( int argc, char* argv[] )
 
 	fclose( hArquivo );
 
-	// Determina a posi��o (�ndice) da letra com maior frequencia no vetor
+	// Determina a posição (índice) da letra com maior frequencia no vetor
 	frequencia_max = 0;
 	for ( i = 0; i < 26; i++ )
 		if ( alfabeto[i] > alfabeto[frequencia_max] )
 			frequencia_max = i;
 
-	// Normaliza para m�ximo igual a MAX_COLS colunas
+	// Normaliza para máximo igual a MAX_COLS colunas
 	for ( i = 0; i < 26; i++ )
 		histograma[i] = MAX_COLS * alfabeto[i] / alfabeto[frequencia_max];
 	
-	// Imprime o histograma da distribui��o das frequencias das letras
+	// Imprime o histograma da distribuição das frequencias das letras
 	for ( i = 0; i < 26; i++ )
 	{
 		printf( " %c %c", i + 65, 179 );

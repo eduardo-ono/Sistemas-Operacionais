@@ -1,6 +1,6 @@
 /*
- * An·lise de desempenho utilizando threads em linguagem C (padr„o POSIX).
- * Programa (n„o otimizado) que determina todos os divisores de um inteiro.
+ * An√°lise de desempenho utilizando threads em linguagem C (padr√£o POSIX).
+ * Programa (n√£o otimizado) que determina todos os divisores de um inteiro.
  * N = 4
  *
  * Copyright(c) Eduardo Ono.
@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <pthread.h>
+#include <time.h>
 
 void* divisores(void *p)
 {
@@ -30,12 +31,16 @@ void* divisores(void *p)
 
 int main()
 {
-	long v0[] = { 0, 1700012341, 0 };
-	long v1[] = { 1, 1700012342, 0 };
-	long v2[] = { 2, 1700012343, 0 };
-	long v3[] = { 3, 1700012344, 0 };
+	clock_t inicio, fim;
+	double tempo;
+
+	long v0[] = { 0, 1700012341 };
+	long v1[] = { 1, 1700012342 };
+	long v2[] = { 2, 1700012343 };
+	long v3[] = { 3, 1700012344 };
 	pthread_t t0, t1, t2, t3;
 
+	inicio = clock();
 	pthread_create( &t0, NULL, divisores, (void*)v0 );
 	pthread_create( &t1, NULL, divisores, (void*)v1 );
 	pthread_create( &t2, NULL, divisores, (void*)v2 );
@@ -44,7 +49,9 @@ int main()
 	pthread_join( t1, NULL );
 	pthread_join( t2, NULL );
 	pthread_join( t3, NULL );
-	
+	fim = clock();
+	tempo = ((double)(fim - inicio)) / CLOCKS_PER_SEC;
+	printf("Tempo decorrido: %lf\n", tempo);
+
 	return 0;
 }
-

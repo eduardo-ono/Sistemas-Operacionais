@@ -1,1 +1,0 @@
-ar local[] = "Teste";

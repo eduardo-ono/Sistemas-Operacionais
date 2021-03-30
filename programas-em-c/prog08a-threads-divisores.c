@@ -1,18 +1,19 @@
 /*
- * An·lise de desempenho utilizando threads em linguagem C (padr„o POSIX).
- * Programa (n„o otimizado) que determina todos os divisores de um inteiro.
+ * An√°lise de desempenho utilizando threads em linguagem C (padr√£o POSIX).
+ * Programa (n√£o otimizado) que determina todos os divisores de um inteiro.
  * N = 0
  *
  * Copyright(c) Eduardo Ono.
 */
 
 #include <stdio.h>
+#include <time.h> // clock_t, clock()
 
-void* divisores( void *p )
+void* divisores(void *p)
 {
 	long *v = (long*)p;
-	long id = v[0];
-	long num = v[1];
+	long id = v[0]; // long id = *v;
+	long num = v[1]; // long num = *(v+1);
 	long divisor;
 
 	for ( divisor = 1; divisor <= num; divisor++ )
@@ -29,16 +30,22 @@ void* divisores( void *p )
 
 int main()
 {
+	clock_t inicio, fim;
+	double tempo;
+
 	long v0[] = { 0, 1700012341 };
 	long v1[] = { 1, 1700012342 };
 	long v2[] = { 2, 1700012343 };
 	long v3[] = { 3, 1700012344 };
 
-	divisores( (void*)v0 );
-	divisores( (void*)v1 );
-	divisores( (void*)v2 );
-	divisores( (void*)v3 );
+	inicio = clock();
+	divisores((void*)v0);  // v0 == &v[0]
+	divisores((void*)v1);
+	divisores((void*)v2);
+	divisores((void*)v3);
+	fim = clock();
+	tempo = ((double)(fim - inicio)) / CLOCKS_PER_SEC;
+	printf("Tempo decorrido: %lf\n", tempo);
 	
 	return 0;
 }
-

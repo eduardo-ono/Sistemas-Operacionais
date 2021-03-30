@@ -1,6 +1,6 @@
 /*
- * An·lise de desempenho utilizando threads em linguagem C (padr„o POSIX).
- * Programa (n„o otimizado) que determina todos os divisores de um inteiro.
+ * An√°lise de desempenho utilizando threads em linguagem C (padr√£o POSIX).
+ * Programa (n√£o otimizado) que determina todos os divisores de um inteiro.
  * N = 4
  *
  * Copyright(c) Eduardo Ono.
@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>  // malloc()
 #include <pthread.h>
+#include <time.h>
 
 void* divisores(void *p)
 {
@@ -38,31 +39,37 @@ void* divisores(void *p)
 
 int main()
 {
+	clock_t now;
+	double tempo;
+
 	long v0[] = { 0, 2000999121, 0 };
 	long v1[] = { 1, 2000999123, 0 };
 	long v2[] = { 2, 2000999125, 0 };
 	long v3[] = { 3, 2000999127, 0 };
 	pthread_t t0, t1, t2, t3;
-	long *p_num_divisores[4];
+	long *p_num_divisores0, *p_num_divisores1, *p_num_divisores2, *p_num_divisores3;
 
-	pthread_create( &t0, NULL, divisores, (void*)v0 );
-	pthread_create( &t1, NULL, divisores, (void*)v1 );
-	pthread_create( &t2, NULL, divisores, (void*)v2 );
-	pthread_create( &t3, NULL, divisores, (void*)v3 );
-	pthread_join( t0, (void*)&p_num_divisores[0] );
-	pthread_join( t1, (void*)&p_num_divisores[1] );
-	pthread_join( t2, (void*)&p_num_divisores[2] );
-	pthread_join( t3, (void*)&p_num_divisores[3] );
+	now = clock();
+	pthread_create(&t0, NULL, divisores, (void*)v0);
+	pthread_create(&t1, NULL, divisores, (void*)v1);
+	pthread_create(&t2, NULL, divisores, (void*)v2);
+	pthread_create(&t3, NULL, divisores, (void*)v3);
+	pthread_join(t0, (void*)&p_num_divisores0);
+	pthread_join(t1, (void*)&p_num_divisores1);
+	pthread_join(t2, (void*)&p_num_divisores2);
+	pthread_join(t3, (void*)&p_num_divisores3);
+	now = clock() - now;
+	tempo = (double)now / CLOCKS_PER_SEC;
 
-	printf("Numero de divisores de %ld = %ld\n", v0[1], *p_num_divisores[0]);
-	printf("Numero de divisores de %ld = %ld\n", v1[1], *p_num_divisores[1]);
-	printf("Numero de divisores de %ld = %ld\n", v2[1], *p_num_divisores[2]);
-	printf("Numero de divisores de %ld = %ld\n", v3[1], *p_num_divisores[3]);
+	printf("Numero de divisores de %ld = %ld\n", v0[1], *p_num_divisores0);
+	printf("Numero de divisores de %ld = %ld\n", v1[1], *p_num_divisores1);
+	printf("Numero de divisores de %ld = %ld\n", v2[1], *p_num_divisores2);
+	printf("Numero de divisores de %ld = %ld\n", v3[1], *p_num_divisores3);
+	printf("Tempo %f\n", tempo);
 	
-	printf("Tamanho do tipo short em bytes = %ld\n", sizeof (short));
-	printf("Tamanho do tipo int em bytes   = %ld\n", sizeof (int));
-	printf("Tamanho do tipo long em bytes  = %ld\n", sizeof (long));
+	printf("Tamanho do tipo short em bytes = %d\n", (int)sizeof (short));
+	printf("Tamanho do tipo int em bytes   = %d\n", (int)sizeof (int));
+	printf("Tamanho do tipo long em bytes  = %d\n", (int)sizeof (long));
 	
 	return 0;
 }
-

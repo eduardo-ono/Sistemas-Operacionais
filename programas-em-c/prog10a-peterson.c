@@ -1,4 +1,4 @@
-// Algoritmo de Peterson para solução de exclusão mútua
+// Algoritmo de Peterson para solução de exclusão mútua de duas threads
 //
 // Copyright(c) 2020, Eduardo Ono.
 
@@ -21,7 +21,7 @@ void* f( void *p )
 	{
 		// Algoritmo de Peterson
 		flag[id] = 1;  // Quero entrar na Região Crítica
-		turno = !id;  // Passo a vez para o outro
+		turno = !id;  // Passo a vez para a outra thread
 		// Enquanto a outra thread quiser entrar e não é minha vez, aguardo...
 		while ( flag[!id] == 1 && turno != id ) ;
 	
