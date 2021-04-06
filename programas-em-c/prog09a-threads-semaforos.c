@@ -1,6 +1,6 @@
 /*
- * An�lise de desempenho utilizando threads em linguagem C (padr�o POSIX).
- * Programa (n�o otimizado) que determina todos os divisores de um inteiro.
+ * Análise de desempenho utilizando threads em linguagem C (padrão POSIX).
+ * Programa (não otimizado) que determina todos os divisores de um inteiro.
  * N = 4
  *
  * Copyright(c) Eduardo Ono.
@@ -18,6 +18,7 @@ void* f(void *p)
 
 	for (i = 0; i < 100; i++)
 	{
+		// Início da Região Crítica
 		switch (num)
 		{
 			case 3: printf("\t\t");
@@ -25,6 +26,7 @@ void* f(void *p)
 			case 1: printf("\t\t");
 		}
 		printf("%d\n", num);
+		// Fim da Região Crítica
 	}
 	
 	return NULL;
@@ -48,4 +50,3 @@ int main()
 	
 	return 0;
 }
-

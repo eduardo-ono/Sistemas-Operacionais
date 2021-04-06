@@ -11,20 +11,18 @@
 
 void* f(void *p)
 {
-	int *p_num = (int*)p;
-	int num, i;
+	int num = *((int*)p);
+	int i;
 	
-	num = *p_num;
-
 	for (i = 0; i < 100; i++)
 	{
 		switch (num)
 		{
-			case 3: printf("\t\t\t\t\t\t%d\n", num); break;
-			case 2: printf("\t\t\t\t%d\n", num); break;
-			case 1: printf("\t\t%d\n", num); break;
-			default: printf("%d\n", num);
+			case 3: printf("\t\t\t\t\t\t"); break;
+			case 2: printf("\t\t\t\t"); break;
+			case 1: printf("\t\t"); break;
 		}
+		printf("%d\n", num);
 	}
 	
 	return NULL;
@@ -35,14 +33,14 @@ int main()
 	int a = 0, b = 1, c = 2, d = 3;
 	pthread_t t0, t1, t2, t3;
 
-	pthread_create( &t0, NULL, f, (void*)&a );
-	pthread_create( &t1, NULL, f, (void*)&b );
-	pthread_create( &t2, NULL, f, (void*)&c );
-	pthread_create( &t3, NULL, f, (void*)&d );
-	pthread_join( t0, NULL );
-	pthread_join( t1, NULL );
-	pthread_join( t2, NULL );
-	pthread_join( t3, NULL );
+	pthread_create(&t0, NULL, f, (void*)&a);
+	pthread_create(&t1, NULL, f, (void*)&b);
+	pthread_create(&t2, NULL, f, (void*)&c);
+	pthread_create(&t3, NULL, f, (void*)&d);
+	pthread_join(t0, NULL);
+	pthread_join(t1, NULL);
+	pthread_join(t2, NULL);
+	pthread_join(t3, NULL);
 	
 	printf("--- Fim do Programa ---\n");
 	

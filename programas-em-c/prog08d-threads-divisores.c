@@ -42,14 +42,15 @@ int main()
 	clock_t now;
 	double tempo;
 
-	long v0[] = { 0, 2000999121, 0 };
-	long v1[] = { 1, 2000999123, 0 };
-	long v2[] = { 2, 2000999125, 0 };
-	long v3[] = { 3, 2000999127, 0 };
+	long v0[] = { 0, 2000999121 };
+	long v1[] = { 1, 2000999123 };
+	long v2[] = { 2, 2000999125 };
+	long v3[] = { 3, 2000999127 };
 	pthread_t t0, t1, t2, t3;
 	long *p_num_divisores0, *p_num_divisores1, *p_num_divisores2, *p_num_divisores3;
 
 	now = clock();
+
 	pthread_create(&t0, NULL, divisores, (void*)v0);
 	pthread_create(&t1, NULL, divisores, (void*)v1);
 	pthread_create(&t2, NULL, divisores, (void*)v2);
@@ -66,10 +67,6 @@ int main()
 	printf("Numero de divisores de %ld = %ld\n", v2[1], *p_num_divisores2);
 	printf("Numero de divisores de %ld = %ld\n", v3[1], *p_num_divisores3);
 	printf("Tempo %f\n", tempo);
-	
-	printf("Tamanho do tipo short em bytes = %d\n", (int)sizeof (short));
-	printf("Tamanho do tipo int em bytes   = %d\n", (int)sizeof (int));
-	printf("Tamanho do tipo long em bytes  = %d\n", (int)sizeof (long));
 	
 	return 0;
 }

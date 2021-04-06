@@ -30,7 +30,7 @@ void* divisores(void *p)
 
 int main()
 {
-	clock_t inicio, fim;
+	clock_t now;
 	double tempo;
 
 	long v0[] = { 0, 1700012341 };
@@ -38,13 +38,13 @@ int main()
 	long v2[] = { 2, 1700012343 };
 	long v3[] = { 3, 1700012344 };
 
-	inicio = clock();
+	now = clock();
 	divisores((void*)v0);  // v0 == &v[0]
 	divisores((void*)v1);
 	divisores((void*)v2);
 	divisores((void*)v3);
-	fim = clock();
-	tempo = ((double)(fim - inicio)) / CLOCKS_PER_SEC;
+	now = clock() - now;
+	tempo = (double)now / CLOCKS_PER_SEC;
 	printf("Tempo decorrido: %lf\n", tempo);
 	
 	return 0;

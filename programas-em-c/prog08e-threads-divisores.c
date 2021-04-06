@@ -46,8 +46,8 @@ int main()
 					{ 1, 2000999123 },
 					{ 2, 2000999125 }, 
 					{ 3, 2000999127 } };
-	pthread_t thread[4];
-	long *p_num_divisores[4];
+	pthread_t thread[NUM_THREADS];
+	long *p_num_divisores[NUM_THREADS];
 	int i;
 
 	inicio = clock();
