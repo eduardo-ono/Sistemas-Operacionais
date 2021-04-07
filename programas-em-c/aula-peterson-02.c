@@ -10,7 +10,7 @@
 // Variáveis globais
 int _valor;
 
-int flag[2] = { 0, 0 };  // flag é um vetor de booleanos
+int flag[] = { 0, 0 };  // flag é um vetor de booleanos
 int turno = 0;  // variável booleana; turno significa "vez"
 
 void* f( void *p )
@@ -26,9 +26,7 @@ void* f( void *p )
 		turno = 1 - id;  // Passo a vez para a outra thread
 		printf("%d: turno = %d\n", id, turno);
 		// Enquanto a outra thread quiser entrar e não for minha vez, aguardo...
-		while ( flag[1-id] == 1 && turno != id )
-		;
-	
+		while ( flag[1-id] == 1 && turno != id ) ;
 		// Início da Região Crítica
 		_valor = id;
 		if ( id == 1 ) printf( "\t\t" );
