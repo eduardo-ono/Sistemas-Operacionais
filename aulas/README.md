@@ -81,10 +81,13 @@ Prof. Eduardo Ono
 
 ## Aula 07: Comunicação entre Processos
 
-  * Algoritmo de Peterson (N = 2)
+  * Algoritmo de Peterson (NUM_THREADS = 2)
+    * Programas em C
+      *[aula-peterson-01.c](../programas-em-c/aula-peterson-01.c)
     * [TANENBAUM_2016] Caps. 2.3.3 e 2.3.4
-  * Algoritmo de Lamport (N > 2)
-    *
+  * Algoritmo (da Padaria) de Lamport (NUM_THREADS >= 2)
+    * Programas em C
+      * [aula-lamport-01.c](../programas-em-c/aula-lamport-01.c)
 
 <br>
 
