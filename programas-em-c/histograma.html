@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    #container {
+      margin: 10px;
+      background-color: lightyellow;
+
+    }
+    .bar {
+      display: inline-block;
+      margin: 2px;
+      bottom: 0;
+      width: 30px;
+      border: 5px;
+      background-color: coral;
+    }
+  </style>
+  <script src="./histograma.js"></script>
+  <script>
+    function main() {
+      var keys = Object.keys(obj);
+      var conteudo = document.getElementById('container');
+      var str = '';
+      for (i = 0; i < keys.length; i++)
+      {
+        str += '<div class="bar" style="height: ' + obj[keys[i]]*10 + 'px">' + '</div>';
+      }
+      conteudo.innerHTML = str;
+      alert(str);
+    }
+  </script>
+</head>
+
+<body onload="main()">
+  <div id="container"></div>
+</body>
+</html>

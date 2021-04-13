@@ -9,21 +9,21 @@
 #include <stdio.h>
 #include <pthread.h>
 
+#define NUM_THREADS 4
+
 void* f(void *p)
 {
 	int *p_num = (int*)p;
-	int num, i;
+	int num, i, j;
 	
 	num = *p_num;
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 10; i++)
 	{
 		// Início da Região Crítica
-		switch (num)
+		for (j = 0; j < num; j++)
 		{
-			case 3: printf("\t\t");
-			case 2: printf("\t\t");
-			case 1: printf("\t\t");
+			printf("\t");
 		}
 		printf("%d\n", num);
 		// Fim da Região Crítica
@@ -34,17 +34,19 @@ void* f(void *p)
 
 int main()
 {
-	int a = 0, b = 1, c = 2, d = 3;
-	pthread_t t0, t1, t2, t3;
+	int v[NUM_THREADS] = { 0, 1, 2, 3 };
+	pthread_t t[NUM_THREADS];
+	int i;
 
-	pthread_create( &t0, NULL, f, (void*)&a );
-	pthread_create( &t1, NULL, f, (void*)&b );
-	pthread_create( &t2, NULL, f, (void*)&c );
-	pthread_create( &t3, NULL, f, (void*)&d );
-	pthread_join( t0, NULL );
-	pthread_join( t1, NULL );
-	pthread_join( t2, NULL );
-	pthread_join( t3, NULL );
+	printf("--- Executando ---\n");
+	for (i = 0; i < NUM_THREADS; i++)
+	{
+		pthread_create(&t[i], NULL, f, (void*)&v[i]);
+	}
+	for (i = 0; i < NUM_THREADS; i++)
+	{
+		pthread_join(t[i], NULL);
+	}	
 	
 	printf("--- Fim do Programa ---\n");
 	
