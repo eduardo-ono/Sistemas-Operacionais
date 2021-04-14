@@ -1,5 +1,5 @@
 /*
- * Análise de desempenho utilizando threads em linguagem C (padrão POSIX).
+ * threads em linguagem C (padrão POSIX).
  * Programa (não otimizado) que determina todos os divisores de um inteiro.
  * N = 4
  *
@@ -8,11 +8,8 @@
 
 #include <stdio.h>
 #include <pthread.h>
-#include <semaphore.h>
 
 #define NUM_THREADS 4
-
-sem_t mutex;
 
 void* f(void *p)
 {
@@ -21,7 +18,6 @@ void* f(void *p)
 
 	for (i = 0; i < 10; i++)
 	{
-        sem_wait(&mutex);
 		// Início da Região Crítica
 		for (j = 0; j < num; j++)
 		{
@@ -29,7 +25,6 @@ void* f(void *p)
 		}
 		printf("%d\n", num);
 		// Fim da Região Crítica
-        sem_post(&mutex);
 	}
 	
 	return NULL;
@@ -42,16 +37,16 @@ int main()
 	int i;
 
 	printf("--- Executando ---\n");
-    sem_init(&mutex, 0, 1);
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_create(&t[i], NULL, f, (void*)&v[i]);
 	}
+
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_join(t[i], NULL);
 	}	
-	sem_destroy(&mutex);
+	
 	printf("--- Fim do Programa ---\n");
 	
 	return 0;

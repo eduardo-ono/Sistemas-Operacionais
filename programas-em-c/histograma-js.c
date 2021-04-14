@@ -54,7 +54,7 @@ int main( int argc, char* argv[] )
 
 	fclose( hArquivo );
 	
-	// Imprime o histograma da distribuição das frequencias das letras como um objeto JS
+	// Imprime os dados da distribuição das frequencias das letras como um objeto JS
     printf("var obj = {\n");
 	for ( i = 0; i < 26; i++ )
 	{

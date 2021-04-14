@@ -6,7 +6,9 @@
 #include <string.h>
 #include <ctype.h>  // toupper()
 #include <pthread.h>
+#include <stdlib.h>
 
+// Peterson
 int flag[] = { 0, 0 };  // flag é um vetor de booleanos
 int turno = 0;  // variável booleana; turno significa "vez"
 
@@ -70,10 +72,16 @@ int main( int argc, char* argv[] )
 	const int MAX_COLS = 70;
 	pthread_t t0, t1;
 
+	/*
+	Arquivo *arquivo, *arquivo1;
+	arquivo = (Arquivo*)malloc(sizeof (Arquivo));
+	arquivo1 = (Arquivo*)malloc(sizeof (Arquivo));
+	*/
+
 	printf( "--> Executando %s\n\n", argv[0] );
 
 	arquivo.id = 0;
-	arquivo.id = 1;
+	arquivo1.id = 1;
 	if ( ( arquivo.file = fopen( nome_arquivo, "r" ) ) == NULL )
 	{
 		printf( "Arquivo invalido!\n" );

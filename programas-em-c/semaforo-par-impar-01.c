@@ -5,7 +5,7 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h> // rsnd(), srand()
+#include <stdlib.h> // srand(), rand()
 #include <time.h> // time()
 #include <pthread.h>
 #include <semaphore.h>
@@ -52,14 +52,17 @@ int main()
 	printf("--- Executando ---\n");
 	sem_init(&par, 0, 1);
 	sem_init(&impar, 0, 1);
+
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_create(&t[i], NULL, f, NULL);
 	}
+
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_join(t[i], NULL);
-	}	
+	}
+
 	sem_destroy(&par);
 	sem_destroy(&impar);
 	printf("\n");
