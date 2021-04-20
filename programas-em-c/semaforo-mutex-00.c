@@ -36,7 +36,7 @@ int main()
 	pthread_t t[NUM_THREADS];
 	int i;
 
-	printf("--- Executando ---\n");
+	printf("\n--- Executando ---\n");
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_create(&t[i], NULL, f, (void*)&v[i]);
@@ -47,7 +47,7 @@ int main()
 		pthread_join(t[i], NULL);
 	}	
 	
-	printf("--- Fim do Programa ---\n");
+	printf("--- Fim do programa ---\n");
 	
 	return 0;
 }

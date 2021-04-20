@@ -13,12 +13,12 @@ void contarLetras( FILE* file )
 {
 	char buffer[2048];  // Armazena uma linha do arquivo de texto
 	int i, indice;  // indice: posição de uma letra no vetor alfabeto
-	
+
 	while ( !feof( file ) )
 	{
 		strcpy( buffer, "" );  // "Zera" o buffer
 		fgets( buffer, 2047, file );
-		
+
 		// Percorre o buffer letra a letra
 		for ( i = 0; i < strlen( buffer ); i++ )
 		{
@@ -40,7 +40,7 @@ void contarLetras( FILE* file )
 
 int main( int argc, char* argv[] )
 {
-	char arquivo[] = "texto.txt";
+	char arquivo[] = "texto1.txt";
 	FILE *hArquivo;
 	int i;
 
@@ -53,14 +53,14 @@ int main( int argc, char* argv[] )
 	contarLetras( (void*)hArquivo );
 
 	fclose( hArquivo );
-	
+
 	// Imprime os dados da distribuição das frequencias das letras como um objeto JS
-    printf("var obj = {\n");
+    printf("const obj = {\n");
 	for ( i = 0; i < 26; i++ )
 	{
 		printf("  \"%c\": %d,\n", i + 65, alfabeto[i] );
 	}
     printf("};\n");
-	
+
 	return 0;
 }
