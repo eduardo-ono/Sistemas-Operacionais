@@ -20,6 +20,7 @@ void* f(void *arg)
     Pessoa pessoa = *((Pessoa*)arg);
     float imc;
 
+    ((Pessoa*)arg)->peso = 0;
     imc = pessoa.peso / (pessoa.altura * pessoa.altura);
 
     printf("%.1f\n", pessoa.peso);
@@ -50,6 +51,12 @@ int main()
 
     pthread_join(t0, NULL);
     pthread_join(t1, NULL);
+
+    printf("pessoa1.peso = %.1f\n", pessoa1.peso);
+    printf("pessoa2->peso = %.1f\n", pessoa2->peso);
+
+    free(pessoa2);
+
 	printf("\n");
 
 	return 0;

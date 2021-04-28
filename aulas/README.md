@@ -27,8 +27,6 @@ Prof. Eduardo Ono
   </section>
 </details>
 
-<br>
-
 <details>
   <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
     Aula 02 - Interpretador de Comandos; Sistemas Operacionais baseados no kernel Linux
@@ -58,7 +56,7 @@ Prof. Eduardo Ono
   * Programa em C que exibe um histograma das ocorrências das letras do alfabeto de um arquivo .txt.
 
   * Exercícios
-    * Implementar no programa <a href="../programas-em-c/histograma.c">histograma.c</a> funcionalidade para que o programa possa receber como parâmetros nomes de arquivos de texto (.txt). O programa deverá apresentar um único histograma com a ocorrência das letras de todos os arquivos de texto. 
+    * Implementar no programa <a href="../programas-em-c/histograma.c">histograma.c</a> funcionalidade para que o programa possa receber como parâmetros nomes de arquivos de texto (.txt). O programa deverá apresentar um único histograma com a ocorrência das letras de todos os arquivos de texto.
 
   * Referências Bibliográficas
     * [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/) (PDF)

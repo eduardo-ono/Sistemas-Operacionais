@@ -19,20 +19,17 @@ Prof. Eduardo Ono
 | 04 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
 ||| **Gerenciamento de Processos**
 | 05 | 16/03 | Concorrência e Paralelismo; Processos e Threads
-| 06 | 23/03 | Escalonamento de Processos; Threads em Linguagem C (POSIX)
+| 06 | 23/03 | Threads em Linguagem C (POSIX)
 | 07 | 30/03 | Região Crítica e Exclusão Mútua
 | 08 | 06/04 | Semáforos e Mutex
-||| **Gerenciamento de Memória**
-| 08 | 13/04 | Memória Principal; Memória Virtual
-| 09 | 20/04 | 1a. Avaliação
-||| **Gerenciamento de Arquivos**
-| 10 | 27/04 | Sistemas de Arquivos
-||| **Gerenciamento de Periféricos**
-| 11 | 04/05 | Sistemas de I/O
-||| **Integridade e Segurança**
-| 12 | 11/05 | Integridade e Segurança
-| 13 | 18/05 | Reservado
-| 14 | 25/05 | 2a. Avaliação
+| 08 | 13/04 | Algoritmo da Padaria de LamportMemória Principal
+| 09 | 20/04 | Problemas Clássicos de Sincronização; **1a. Avaliação**
+| 10 | 27/04 | Escalonamento de Processos;
+| 11 | 04/05 | Gerenciamento de Memória - Memória Principal; Memória Virtual; Paginação; Algoritmos de Substituição de Página
+| 12 | 11/05 | Gerenciamento de Arquivos - Sistemas de Arquivos; Implementação do Sistema de ArquivosIntegridade e Segurança
+| 13 | 18/05 | Gerenciamento de Periféricos; Técnicas de E/S
+| 14 | 25/05 | Integridade e Segurança; **2a. Avaliação** (a defininir)
+| 15 | 01/06 | **2a. Avaliação** (a definir)
 
 <br>
 
@@ -79,10 +76,11 @@ Prof. Eduardo Ono
 
 ## Filmes e Documentários Recomendados
 
-| Trailer | Descrição |
+| Thumb | Descrição |
 | :-: | --- |
 | [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013) (YouTube)
 | [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015) (YouTube)
+| [![Trailer](https://img.youtube.com/vi/s4pVFLUlx8g/default.jpg)](https://youtu.be/s4pVFLUlx8g) | History of Steve Jobs (Full Documentary) (YouTube, 1:06:03, Mar/2021)
 
 <br>
 
