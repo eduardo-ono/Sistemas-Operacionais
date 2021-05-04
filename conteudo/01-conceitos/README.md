@@ -1,16 +1,56 @@
 ### Sistemas Operacionais
 
-# Conceitos e Aplicações
+# Conceitos
 
 Prof. Eduardo Ono
 
 <br>
 
-## Conceitos
+## Introdução e História de Sistemas Operacionais
 
-    Um _*Sistema Operacional*_ é um conjunto de gerenciadores dos componentes de um computador. Também fornece uma interface para que o usuário tenha acesso a esses componentes.
+* **Referências**
+  * [[TANENBAUM-4e_2016]] Cap. 1, pp. 1-3.
 
-* [CrashCourse] [Operating Systems: Crash Course Computer Science #18](https://www.youtube.com/watch?v=26QPDBe-NB8) (YouTube, 13:35, Jun/2017)
+* **Vídeos de Apoio**
+
+  || Descrição |
+  | :-: | --- |
+  | [![](https://img.youtube.com/vi/26QPDBe-NB8/default.jpg)](https://www.youtube.com/watch?v=26QPDBe-NB8) | [CrashCourse] <br> [**Operating Systems: Crash Course Computer Science #18**](https://www.youtube.com/watch?v=26QPDBe-NB8) \|\| 13:35, YouTube, Jun/2017.
+
+<br>
+
+## Conceito de Sistema Operacinal
+
+> Em linhas gerais, um ___Sistema Operacional___ é um conjunto de gerenciadores dos componentes de um computador. Também fornece uma interface para que o usuário tenha acesso a esses componentes.
+
+* __Referências__
+
+  * [[TANENBAUM-4e_2016]] Cap. 1, pp. 3-5.
+
+<br>
+
+## Tipos de Sistemas Operacionais
+
+* __Sistemas Operacionais Monoprogramados ou Monotarefa__
+
+  * Exemplos
+    * MS-DOS
+
+* __Sistemas Operacionais Multiprogramados ou Multitarefa__
+
+   * Características
+     * Vários processos podem ser mantidos na memória principal ao mesmo tempo.
+     * Várias tarefas simultâneas para uma única CPU: enquanto uma tarefa é executada, as demais aguardam.
+     * Demandam um mecanismo de trocas rápidas (chaveamento) de processos.
+
+  * Exemplos
+    * Microsoft Windows, Distribuições Linux
+
+  * Classificação
+
+    * Sistemas Batch (em Lote)
+    * Sistemas de Tempo Compartilhado
+    * Sistemas de Tempo Real
 
 <br>
 
@@ -18,24 +58,9 @@ Prof. Eduardo Ono
 
 * http://linuxcommand.org/lc3_lts0040.php
 
-* [Bóson Treinamentos] [Por que é importante aprender Linux](https://www.youtube.com/watch?v=UsHiWIgxj2M) (YouTube, 18:52)
-
-<br>
-
-### Instalação do Ubuntu 20.04 no Windows 10
-
-#### Opção 1: Dual Boot
-
-* [Dioliux] https://youtu.be/6D6L9Wml1oY (14:17)
-
-#### Opção 2: Máquina Virtual (VirtualBox)
-
-* [DevSuperior] https://youtu.be/wGwikwPrACA (23:25)
-
-#### Opção 3: Virtualização do Ubuntu (sem interface gráfica) altravés do WSL 2
-
-* [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
-* [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+  || --- |
+  | :-: | --- |
+  | [![](https://img.youtube.com/vi/UsHiWIgxj2M/default.jpg)](https://www.youtube.com/watch?v=UsHiWIgxj2M) | [Bóson Treinamentos] <br> [**Por que é importante aprender Linux**](https://www.youtube.com/watch?v=UsHiWIgxj2M) \|\| 18:52, YouTube, /.
 
 <br>
 
@@ -54,3 +79,5 @@ Prof. Eduardo Ono
 * [Certificação Linux] [Linus Torvalds responde porque o Linux não é popular no Desktop](https://www.youtube.com/watch?v=kQilgheRZAY) (YouTube, 3:20)
 
 <br>
+
+[TANENBAUM-4e_2016]: ../../referencias/README.md#TANENBAUM-4e_2016

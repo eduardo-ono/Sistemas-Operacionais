@@ -1,4 +1,6 @@
-# Sistemas Operacionais > Processos e Threads > Algoritmo de Peterson
+> ### Sistemas Operacionais > Processos e Threads
+
+# Algoritmo de Peterson
 
 Prof. Eduardo Ono
 
@@ -13,10 +15,9 @@ Prof. Eduardo Ono
 <br>
 
 > ### Algoritmo de Peterson
-> * O _Algoritmo de Peterson_ é um algoritmo de programação concorrente para exclusão mútua, que permite a dois ou mais processos ou subprocessos compartilharem um recurso sem conflitos, utilizando apenas memória compartilhada para a comunicação. Ele foi formulado por Gary L. Peterson em 1981. Embora a formulação original de Peterson funcionasse apenas com dois processos, o algoritmo pode ser estendido para mais processos.
+> * O ___Algoritmo de Peterson___ é um algoritmo de programação concorrente para exclusão mútua, que permite a dois ou mais processos ou subprocessos compartilharem um recurso sem conflitos, utilizando apenas memória compartilhada para a comunicação. Ele foi formulado por Gary L. Peterson em 1981. Embora a formulação original de Peterson funcionasse apenas com dois processos, o algoritmo pode ser estendido para mais processos.
 
 <br>
-
 
 ## Algoritmo de Peterson para duas threads (linguagem C)
 <br>
@@ -57,11 +58,11 @@ while (flag[1] == true && turno == 1)
 <br>
 
 ## Vídeos recomendados
-<br>
 
 * [UNIVESP] [Sistemas Operacionais - Threads](https://www.youtube.com/watch?v=Tbwu55Iov5s) (YouTube, 23:55)
 
 <br>
 
 ## Bibliografia
+
 <br>

@@ -1,4 +1,6 @@
-# Sistemas Operacionais > Linux
+> ### Sistemas Operacionais > Conteúdo
+
+# Linux
 
 Prof. Eduardo Ono
 
@@ -6,7 +8,7 @@ Prof. Eduardo Ono
 
 ## Conceitos
 
-> **Linux** é o kernel de um sistema operacinal, ou seja o conjunto de gerenciadores dos principais recursos do sistema.
+> **Linux** é um kernel desenvolvido por Linus Torvalds, e compreende um conjunto de gerenciadores dos recursos do sistema.
 
 > O Ubuntu é uma das principais e mais utilizadas distribuições Linux utilizadas. É mantida pela Canonical.
 
@@ -20,19 +22,23 @@ Prof. Eduardo Ono
 
 ## Instalação do Ubuntu 20.04 no Windows 10
 
-> ### Opção 1: Dual Boot
-> * [Dioliux] https://youtu.be/6D6L9Wml1oY (14:17)
+*  ### Opção 1: Dual Boot
+  * [Dioliux] https://youtu.be/6D6L9Wml1oY (14:17)
+
+* ### Opção 2: Máquina Virtual (VirtualBox)
+  * [DevSuperior] https://youtu.be/wGwikwPrACA (23:25)
+
+* ### Opção 3: Virtualização do Ubuntu (sem interface gráfica) altravés do WSL 2
+  * [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
+  * [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
 
 <br>
 
-> ### Opção 2: Máquina Virtual (VirtualBox)
-> * [DevSuperior] https://youtu.be/wGwikwPrACA (23:25)
+## Vídeos Recomendados
 
-<br>
-
-> ### Opção 3: Virtualização do Ubuntu (sem interface gráfica) altravés do WSL 2
-> * [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
-> * [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+|| Descrição |
+| :-: | --- |
+| [![](https://img.youtube.com/vi/WVTWCPoUt8w/default.jpg)](https://www.youtube.com/watch?v=WVTWCPoUt8w) | [Computer History Museum]<br>**The Origins of Linux—Linus Torvalds** \|\| 1:25:12, YouTube, Abr/2008.
 
 <br>
 

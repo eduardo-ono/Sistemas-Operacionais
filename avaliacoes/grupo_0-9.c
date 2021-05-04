@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <pthread.h>
-#define tamanhoUm 10000
+#define tamanhoUm 200
 #define tamanhoDois tamanhoUm/2
 
 void popularVetor(int v[], const int N);
@@ -20,8 +20,8 @@ int main()
     printf("Vetor original");
     imprimirVetor(v, tamanhoUm);
 
-    int primeiraMetade = v;
-    int segundaMetade = v + tamanhoDois;
+    int *primeiraMetade = v;
+    int *segundaMetade = v + tamanhoDois;
 
     pthread_create(&t0, NULL, ordenarVetor, (void *)primeiraMetade);
 	pthread_create(&t1, NULL, ordenarVetor, (void *)segundaMetade);

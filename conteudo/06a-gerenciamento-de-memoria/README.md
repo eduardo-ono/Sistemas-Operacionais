@@ -1,18 +1,18 @@
-# Sistemas Operacionais
+> ### Sistemas Operacionais
+
+# Gerenciamento de Memória
 
 Prof. Eduardo Ono
 
 <br>
 
 ## Conceitos
-<br>
 
 * [Fabio Akita] [Gerenciamento de Memória (Parte 1)](https://www.youtube.com/watch?v=9AK_1gqEfkQ) (YouTube, 33:59)
 
 <br>
 
 ## Instalação do Ubuntu 20.04 no Windows 10
-<br>
 
 #### Opção 1: Dual Boot
 
@@ -26,3 +26,5 @@ Prof. Eduardo Ono
 
 - [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
 - [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+
+<br>

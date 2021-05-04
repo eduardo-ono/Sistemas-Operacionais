@@ -1,4 +1,6 @@
-# Sistemas Operacionais > Gerenciamento de Processos > Processos e Threads
+> ### Sistemas Operacionais > Gerenciamento de Processos
+
+# Processos e Threads
 
 Prof. Eduardo Ono
 
