@@ -183,7 +183,7 @@ Prof. Eduardo Ono
 <details>
   <summary>Aula 12
 
-  ### Gerenciamento de Procesos:
+  ### Gerenciamento de Procesos: Memória Virtual
   </summary>
   <section markdown="1">
 
@@ -194,6 +194,9 @@ Prof. Eduardo Ono
         * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016], Cap. 3, pp. 125-129.
       * Abordagens gerais para lidar com a sobrecarga da memória principal
         * Swapping (Troca de processos)
+          * Gerenciamento
+            * [Fig.](../conteudo/06a-gerenciamento-de-memoria/figuras/swapping-gerenciamento.png)
+            * Mapas de bits
         * Memória Virtual
 
     * Memória Virtual
@@ -206,10 +209,10 @@ Prof. Eduardo Ono
             * Estruturas de Tabelas de Páginas
               * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 141-144.
               * Tabelas de página multinível
-                * Ref.:
               * Tabelas Hash
               * Tabelas de páginas invertidas
           * Algoritmos de Substituição de Páginas
+            * [Resumo](../conteudo/06a-gerenciamento-de-memoria/memoria-virtual/algoritmos-substituicao-paginas.md)
             * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 144-153.
             * Ótimo
             * NRU (não usadas recentemente)
@@ -228,7 +231,7 @@ Prof. Eduardo Ono
 
     | __Gerenciamento de Memória__ |
     | --- |
-    | |
+    | Introdução; Swapping;  |
     [![](https://img.youtube.com/vi/Q8ZqjEafmNc/default.jpg)](https://www.youtube.com/watch?v=Q8ZqjEafmNc "[UNIVESP] Sistemas Operacionais - Aula 17 - Introdução ao Gerenciamento de Memória \|\| 25:54, YouTube, Jun/2017")
     | Técnicas de Memória Virtual |
     [![](https://img.youtube.com/vi/QjieJPckuDI/default.jpg)](https://www.youtube.com/watch?v=QjieJPckuDI "[UNIVESP] Sistemas Operacionais - Aula 18 - Técnicas de Memória Virtual \|\| 25:04, YouTube, Jun/2017")
@@ -245,11 +248,15 @@ Prof. Eduardo Ono
 <details>
   <summary>Aula 13
 
-  ### Gerenciamento de Arquivos - Partições
+  ### Gerenciamento de Arquivos
   </summary>
 
   * Vídeos de Apoio
-  [![](https://img.youtube.com/vi/Vd-CEeoonIM/default.jpg)](https://www.youtube.com/watch?v=Vd-CEeoonIM "[Diolinux] O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT) \|\| 9:55, YouTube, Abr/2019.")
+
+  | Gerenciamento de Arquivos |
+  | --- |
+  | Partições |
+  | [![](https://img.youtube.com/vi/Vd-CEeoonIM/default.jpg)](https://www.youtube.com/watch?v=Vd-CEeoonIM "[Diolinux] O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT) \|\| 9:55, YouTube, Abr/2019.")
 
 </details>
 

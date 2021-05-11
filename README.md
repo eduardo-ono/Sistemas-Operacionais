@@ -25,8 +25,8 @@ Prof. Eduardo Ono
 | 08 | 13/04 | Algoritmo da Padaria de Lamport
 | 09 | 20/04 | Problemas Clássicos de Sincronização; __1a. Avaliação__
 | 10 | 27/04 | Escalonamento de Processos;
-| 11 | 04/05 | Gerenciamento de Memória: Memória Principal; Memória Virtual; Paginação; Algoritmos de Substituição de Página
-| 12 | 11/05 | Gerenciamento de Memória:
+| 11 | 04/05 | Gerenciamento de Memória: Memória Principal e Secundária
+| 12 | 11/05 | Gerenciamento de Memória: Memória Virtual
 | 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
 | 14 | 25/05 | Gerenciamento de Periféricos: Técnicas de E/S
 | 15 | 01/06 | Integridade e Segurança; __2a. Avaliação__ (a ser confirmado)
