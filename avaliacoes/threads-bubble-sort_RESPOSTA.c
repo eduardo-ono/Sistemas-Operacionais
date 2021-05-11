@@ -64,7 +64,7 @@ int copiarVetor(int fonte[], int destino[], const int N)
 
 int main()
 {
-    const int N = 200;
+    const int N = 50000;
     int v[N], u[N];
     Array v1, v2;
     pthread_t t0, t1;
@@ -160,10 +160,6 @@ int bubbleSort(int v[], const int N)
         trocou = 0;
         for (i = 0; i < N-1-varredura; i++)
         {
-            for (j = 0; j < 500000; j++)
-            {
-                float y = tan(atan(0.2));
-            }
             if (v[i] > v[i+1])
             {
                 aux = v[i];

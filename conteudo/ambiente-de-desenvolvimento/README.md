@@ -25,17 +25,17 @@ Prof. Eduardo Ono
 
 ## Compiladores C/C++
 
-* **Compilador para Windows**
+* __Compilador para Windows__
 
   * TDM-GCC: https://jmeubank.github.io/tdm-gcc/
 
-* **Compilador para Linux**
+* __Compilador para Linux__
 
   * GCC
 
     `sudo apt install gcc`
 
-* **Configuração da linha de comando**
+* __Configuração da linha de comando__
 
   * Linguagem C
 
@@ -49,9 +49,11 @@ Prof. Eduardo Ono
 
 ## Editor: Microsoft Visual Studio Code (VS Code)
 
-* **Extensões**
+* __Extensões__
   * [Jun Han] Code Runner
     * Para compilar/executar um programa, usar a combinação de teclas `Ctrl + Alt + N`.
+
+<br>
 
 ## Referências Bibliográficas
 

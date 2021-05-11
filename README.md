@@ -22,21 +22,24 @@ Prof. Eduardo Ono
 | 06 | 23/03 | Threads em Linguagem C (POSIX)
 | 07 | 30/03 | Região Crítica e Exclusão Mútua
 | 08 | 06/04 | Semáforos e Mutex
-| 08 | 13/04 | Algoritmo da Padaria de LamportMemória Principal
+| 08 | 13/04 | Algoritmo da Padaria de Lamport
 | 09 | 20/04 | Problemas Clássicos de Sincronização; __1a. Avaliação__
 | 10 | 27/04 | Escalonamento de Processos;
-| 11 | 04/05 | Gerenciamento de Memória - Memória Principal; Memória Virtual; Paginação; Algoritmos de Substituição de Página
-| 12 | 11/05 | Gerenciamento de Arquivos - Sistemas de Arquivos; Implementação do Sistema de ArquivosIntegridade e Segurança
-| 13 | 18/05 | Gerenciamento de Periféricos; Técnicas de E/S
-| 14 | 25/05 | Integridade e Segurança
-| 15 | 01/06 | **2a. Avaliação** (a ser confirmado)
+| 11 | 04/05 | Gerenciamento de Memória: Memória Principal; Memória Virtual; Paginação; Algoritmos de Substituição de Página
+| 12 | 11/05 | Gerenciamento de Memória:
+| 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
+| 14 | 25/05 | Gerenciamento de Periféricos: Técnicas de E/S
+| 15 | 01/06 | Integridade e Segurança; __2a. Avaliação__ (a ser confirmado)
 
 <br>
 
 ## Recursos
 
-* [Instalação do Ubuntu 20.04 LTS junto ao Windows 10](./conteudo/ambiente-de-desenvolvimento/README.md#ubuntu)
-* Compilador C/C++
+* S.O. Microsoft Windows
+* S.O. Ubuntu 20.04 (ou outra distribuição Linux baseada no Debian)
+  * [Instalação do Ubuntu 20.04 LTS junto ao Windows 10](./conteudo/ambiente-de-desenvolvimento/README.md#ubuntu)
+* GCC (Compilador C/C++)
+* Extensão GitHub + Mermaid (Alex Mercier) para o Google Chrome e [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/github-mermaid/)
 
 <br>
 
@@ -44,9 +47,9 @@ Prof. Eduardo Ono
 
 | Capa | Título |
 | :-:  | ---    |
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | [TANEMBAUM_2016] TANENBAUM, Andrew. S.; BOS, Herbert. [**Sistemas Operacionais Modernos, 4. ed.**](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
-  <img src="./referencias/capas/silberschatz_2015.jpg" width="100px"> | [SILBERSCHATZ_2015] SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais: Princípios Básicos, 9. ed.**, Rio de Janeiro: LTC, 2015.
-  <img src="./referencias/capas/stallings_2017.jpg" width="100px"> | [STALLINGS_2017] STALLINGS, Willian. **Operating Systems: Internals and Design Principles, 9. ed.**, Pearson, 2017.
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | [<a id="TANENBAUM-4e_2016">TANENBAUM_2016] <br> TANENBAUM, Andrew. S.; BOS, Herbert. [**Sistemas Operacionais Modernos, 4. ed.**](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
+  <img src="./referencias/capas/silberschatz_2015.jpg" width="100px"> | [SILBERSCHATZ_2015] <br> SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais: Princípios Básicos, 9. ed.**, Rio de Janeiro: LTC, 2015.
+  <img src="./referencias/capas/stallings_2017.jpg" width="100px"> | [STALLINGS_2017] <br> STALLINGS, Willian. **Operating Systems: Internals and Design Principles, 9. ed.**, Pearson, 2017.
 
 <br>
 

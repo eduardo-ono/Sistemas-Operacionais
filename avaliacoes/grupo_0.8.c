@@ -97,6 +97,7 @@ void* bubblesort (void *arg) {
         }
     }
     else {
+        sub = 0;
         for (varredura2 = 0; (varredura2 < N-1) && trocou2; varredura2++) {
             trocou2 = 0;
             for (y = *inicia; y < N-1-varredura2-sub; y++) {

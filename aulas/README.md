@@ -7,17 +7,18 @@ Prof. Eduardo Ono
 <br>
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 01 - Conceitos e História de Sistemas Operacionais
-  </summary>
-  <section style="border: 1px solid #C8E1FF; border-radius: 6px">
+  <summary>Aula 01
 
-  * **Conceitos**
+  ### Conceitos e História dos Sistemas Operacionais
+  </summary>
+  <section markdown="1">
+
+  * __Conceitos__
     * Sistema
     * Sistema Operacional<br>
       > Um _*Sistema Operacional*_ é um conjunto de gerenciadores dos componentes de um computador. Fornece também uma interface para que o usuário tenha acesso a esses componentes.
 
-  * **História de Sistemas Operacionais**
+  * __História de Sistemas Operacionais__
     * Microsoft Windows
       * [TecMundo] [A história do Windows](https://www.youtube.com/watch?v=0Fjwg6q_cfI) (YouTubbe, 14:00, Abr/2018)
 
@@ -27,9 +28,12 @@ Prof. Eduardo Ono
   </section>
 </details>
 
+---
+
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 02 - Interpretador de Comandos; Sistemas Operacionais baseados no kernel Linux
+  <summary>Aula 02
+
+  ### Interpretador de Comandos; Sistemas Operacionais baseados no kernel Linux
   </summary>
 
   * **Interpretador de Comandos do Windows (Prompt de Comando e PowerShell)**
@@ -46,11 +50,12 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 03 - Passagem de parâmetros por linha de comando (programação em C)
+  <summary>Aula 03
+
+  ### Passagem de parâmetros por linha de comando (programação em C)
   </summary>
 
   * Programa em C que exibe um histograma das ocorrências das letras do alfabeto de um arquivo .txt.
@@ -66,11 +71,12 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 04 - Escalonamento em Sistemas Operacionais do Tipo Batch
+  <summary>Aula 04
+
+  ### Escalonamento em Sistemas Operacionais do Tipo Batch
   </summary>
 
   * Introdução ao Escalonamento
@@ -84,11 +90,12 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 05 - Gerenciamento de Processos - Processos e Threads
+  <summary>Aula 05
+
+  ### Gerenciamento de Processos - Processos e Threads
   </summary>
 
   * Bibliografia
@@ -96,11 +103,12 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 06 - Comunicação entre Processos
+  <summary>Aula 06
+
+  ### Comunicação entre Processos
   </summary>
 
   * Regiões Críticas
@@ -112,11 +120,12 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 07 - Comunicação entre Processos: Algoritmos de Exclusão Mútua
+  <summary>Aula 07
+
+  ### Comunicação entre Processos: Algoritmos de Exclusão Mútua
   </summary>
 
   * Algoritmo de Peterson (NUM_THREADS = 2)
@@ -132,9 +141,13 @@ Prof. Eduardo Ono
       * [aula-lamport-01.c](../programas-em-c/aula-lamport-01.c)
 
 </details>
+
+---
+
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula 08 - Comunicação entre Processos: Semáforos e MUTEX; Deadlock e Starvation
+  <summary>Aula 08
+
+  ### Comunicação entre Processos: Semáforos e MUTEX; Deadlock e Starvation
   </summary>
 
   * Semáforos
@@ -149,16 +162,97 @@ Prof. Eduardo Ono
 
 </details>
 
-<br>
+---
 
 <details>
-  <summary style="font-size: 1.2rem; font-weight: bold; padding: 10px; background-color: #F1F8FF; border: 1px solid #C8E1FF; border-radius: 6px">
-    Aula ?? - Gerenciamento de Arquivos - Partições
+  <summary>Aula 09
+
+  ### Escalonamento de Processos
+  </summary>
+  <section markdown="1">
+
+  * Conteúdo
+    * [Algoritmos de Escalonamento](../conteudo/escalonamento-de-processos/)
+      * [Round-Robin](../conteudo/escalonamento-de-processos/round-robin/)
+
+  </section>
+</details>
+
+---
+
+<details>
+  <summary>Aula 12
+
+  ### Gerenciamento de Procesos:
+  </summary>
+  <section markdown="1">
+
+  * Conteúdo
+
+    * Fundamentos
+      * Espaço de Endereçamento
+        * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016], Cap. 3, pp. 125-129.
+      * Abordagens gerais para lidar com a sobrecarga da memória principal
+        * Swapping (Troca de processos)
+        * Memória Virtual
+
+    * Memória Virtual
+      * Conceitos
+        > Cada processo tem seu próprio espaço de endereçamento, o qual é dividido em blocos chamados de páginas (ex. 4 KB).
+      * Técnicas de Memória Virtual
+        * Paginação
+          > Blocos de tamanho fixo (ex. 4 KB).
+          * Tabelas de Páginas
+            * Estruturas de Tabelas de Páginas
+              * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 141-144.
+              * Tabelas de página multinível
+                * Ref.:
+              * Tabelas Hash
+              * Tabelas de páginas invertidas
+          * Algoritmos de Substituição de Páginas
+            * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 144-153.
+            * Ótimo
+            * NRU (não usadas recentemente)
+            * FIFO (primeiro a entrar, primeiro a sair)
+            * Segunda chance
+            * Relógio
+            * LRU (usadas menos recentemente)
+            * NRU (não frequentemente usadas)
+            * Envelhecimento (_Aging_)
+            * Conjunto de Trabalho
+            * WSClock
+        * Segmentação
+          > Blocos de tamanho variável, chamados de segmentos. Contém mesmo tipo de informação.
+
+  * Vídeos de Apoio
+
+    | __Gerenciamento de Memória__ |
+    | --- |
+    | |
+    [![](https://img.youtube.com/vi/Q8ZqjEafmNc/default.jpg)](https://www.youtube.com/watch?v=Q8ZqjEafmNc "[UNIVESP] Sistemas Operacionais - Aula 17 - Introdução ao Gerenciamento de Memória \|\| 25:54, YouTube, Jun/2017")
+    | Técnicas de Memória Virtual |
+    [![](https://img.youtube.com/vi/QjieJPckuDI/default.jpg)](https://www.youtube.com/watch?v=QjieJPckuDI "[UNIVESP] Sistemas Operacionais - Aula 18 - Técnicas de Memória Virtual \|\| 25:04, YouTube, Jun/2017")
+    | Paginação;
+    [![](https://img.youtube.com/vi/4EaBN98dk40/default.jpg)](https://www.youtube.com/watch?v=4EaBN98dk40 "[UNIVESP] Sistemas Operacionais - Aula 19 - Paginação \|\| 25:04, YouTube, Jun/2017")
+    | Algoritmos de Substituição de Páginas |
+    [![](https://img.youtube.com/vi/j6RMVMUxYmc/default.jpg)](https://www.youtube.com/watch?v=j6RMVMUxYmc "[UNIVESP] Sistemas Operacionais - Aula 20 - Algoritmos de Substituição de Páginas \|\| 18:30, YouTube, Jun/2017")
+
+  </section>
+</details>
+
+---
+
+<details>
+  <summary>Aula 13
+
+  ### Gerenciamento de Arquivos - Partições
   </summary>
 
-  * Vídeos Recomendados
-    * [Diolinux] [O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT)](https://www.youtube.com/watch?v=Vd-CEeoonIM) (YouTube, 9:55, Abr/2019)
+  * Vídeos de Apoio
+  [![](https://img.youtube.com/vi/Vd-CEeoonIM/default.jpg)](https://www.youtube.com/watch?v=Vd-CEeoonIM "[Diolinux] O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT) \|\| 9:55, YouTube, Abr/2019.")
 
 </details>
 
 <br>
+
+[TANENBAUM-4e_2016]: ../README.md#TANENBAUM-4e_2016
