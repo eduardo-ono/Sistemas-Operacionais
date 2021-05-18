@@ -1,14 +1,16 @@
-## Sistemas Operacionais - Windows PowerShell
+> ### Sistemas Operacionais > Conteúdo
+
+# Windows PowerShell
 
 Prof. Eduardo Ono
 
 <br>
 
-### Conteúdo
+## Conteúdo
+
 <br>
 
-### PowerShell Scripting
-<br>
+## PowerShell Scripting
 
 ```
 &    separates commands on a line.
@@ -46,7 +48,16 @@ Prof. Eduardo Ono
 
 <br>
 
-### Bibliografia
+## Vídeos Recomendados
+
+|||
+| :-: | --- |
+| ![img](https://img.youtube.com/vi/UVUd9_k9C6A/default.jpg) | [Nerd's lesson] [PowerShell For Beginners Full Course \| PowerShell Beginner tutorial Full Course](https://www.youtube.com/watch?v=UVUd9_k9C6A) \|\| 6:01:46, YouTube, Mar/2021.
+
 <br>
 
+## Bibliografia
+
 * [PowerShell Notes for Professionals](https://goalkicker.com/PowerShellBook/) (PDF)
+
+<br>

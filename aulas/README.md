@@ -250,6 +250,7 @@ Prof. Eduardo Ono
 
   ### Gerenciamento de Arquivos
   </summary>
+  <section markdown="1">
 
   * Vídeos de Apoio
 
@@ -257,8 +258,16 @@ Prof. Eduardo Ono
   | --- |
   | Partições |
   | [![](https://img.youtube.com/vi/Vd-CEeoonIM/default.jpg)](https://www.youtube.com/watch?v=Vd-CEeoonIM "[Diolinux] O que são partições? - Primárias, Lógicas e Estendidas (MBR/GPT) \|\| 9:55, YouTube, Abr/2019.")
+  | Sistemas de Arquivos |
+  | [![](https://img.youtube.com/vi/KPWtWB0x9rI/default.jpg)](https://www.youtube.com/watch?v=KPWtWB0x9rI "[Bóson Treinamentos] O que é um Sistema de Arquivos - Curso de Hardware \|\| 9:55, YouTube, Abr/2019.")
 
+  * Exercício
+    * Implementar um programa em C que receba como parâmetro o path de algum diretório. O programa deverá listar todos os arquivos e subdiretório contidos no diretório fornecido. Caso nenhum parâmetro seja fornecido, o programa deverá considerar o diretório corrente.
+
+  </section>
 </details>
+
+---
 
 <br>
 
