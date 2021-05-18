@@ -1,4 +1,4 @@
-### Sistemas Operacionais
+> #### Sistemas Operacionais
 
 # Aulas
 
@@ -167,6 +167,23 @@ Prof. Eduardo Ono
 <details>
   <summary>Aula 09
 
+  ### Problemas Clássicos de Sincronização
+  </summary>
+  <section markdown="1">
+
+  * Tópicos
+
+    * Produtor-Consumidor
+    * Jantar dos Filósofos
+
+  </section>
+</details>
+
+---
+
+<details>
+  <summary>Aula 10
+
   ### Escalonamento de Processos
   </summary>
   <section markdown="1">
@@ -181,13 +198,38 @@ Prof. Eduardo Ono
 ---
 
 <details>
+  <summary>Aula 11
+
+  ### Gerenciamento de Memória: Fundamentos
+  </summary>
+  <section markdown="1"><br>
+
+  * #### Tópicos
+
+    * Conceitos
+      * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016]
+
+
+  * #### Vídeos de Apoio
+
+  ||
+  | --- |
+  | História: Gerenciamento de Memória no DOS  |
+  | [![img](https://img.youtube.com/vi/cTVXKfYOYxo/default.jpg)](https://www.youtube.com/watch?v=cTVXKfYOYxo "[UNIVESP] Só Precisamos de 640 kB de Memória? \| 16-bits até 64-bits! \|\| 49:12, YouTube, Mai/2021")
+
+  </section>
+</details>
+
+---
+
+<details>
   <summary>Aula 12
 
-  ### Gerenciamento de Procesos: Memória Virtual
+  ### Gerenciamento de Memória: Memória Virtual
   </summary>
   <section markdown="1">
 
-  * Conteúdo
+  * #### Tópicos
 
     * Fundamentos
       * Espaço de Endereçamento
@@ -227,7 +269,7 @@ Prof. Eduardo Ono
         * Segmentação
           > Blocos de tamanho variável, chamados de segmentos. Contém mesmo tipo de informação.
 
-  * Vídeos de Apoio
+  * #### Vídeos de Apoio
 
     | __Gerenciamento de Memória__ |
     | --- |
@@ -239,6 +281,13 @@ Prof. Eduardo Ono
     [![](https://img.youtube.com/vi/4EaBN98dk40/default.jpg)](https://www.youtube.com/watch?v=4EaBN98dk40 "[UNIVESP] Sistemas Operacionais - Aula 19 - Paginação \|\| 25:04, YouTube, Jun/2017")
     | Algoritmos de Substituição de Páginas |
     [![](https://img.youtube.com/vi/j6RMVMUxYmc/default.jpg)](https://www.youtube.com/watch?v=j6RMVMUxYmc "[UNIVESP] Sistemas Operacionais - Aula 20 - Algoritmos de Substituição de Páginas \|\| 18:30, YouTube, Jun/2017")
+
+  * #### Exercícios
+
+    * Apontar, no vídeo a seguir, os principais erros de conceitos cometidos:
+
+      | [![](https://img.youtube.com/vi/KPWtWB0x9rI/default.jpg)](https://www.youtube.com/watch?v=KPWtWB0x9rI "[Bóson Treinamentos] TRANSFORMANDO MEMÓRIA RAM EM UM SSD NVME, ISSO É MUITO RÁPIDO \|\| 12:52, YouTube, Mai/2021.")
+      | --- |
 
   </section>
 </details>
@@ -255,6 +304,7 @@ Prof. Eduardo Ono
   * #### Tópicos
 
     * [Sistemas de Arquivos](../conteudo/07-gerenciamento-de-arquivos/sistema-de-arquivos/)
+      * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016]
 
   * #### Vídeos de Apoio
 

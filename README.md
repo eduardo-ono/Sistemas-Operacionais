@@ -14,10 +14,8 @@ Prof. Eduardo Ono
 | :-:  | :-:  | ---      |
 | 01 | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
 | 02 | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais>
-||| **Interface de Linha de Comando (CLI)**
 | 03 | 02/03 | Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
 | 04 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-||| **Gerenciamento de Processos**
 | 05 | 16/03 | Concorrência e Paralelismo; Processos e Threads
 | 06 | 23/03 | Threads em Linguagem C (POSIX)
 | 07 | 30/03 | Região Crítica e Exclusão Mútua
@@ -29,7 +27,8 @@ Prof. Eduardo Ono
 | 12 | 11/05 | Gerenciamento de Memória: Memória Virtual
 | 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
 | 14 | 25/05 | Gerenciamento de Periféricos: Técnicas de E/S
-| 15 | 01/06 | Integridade e Segurança; __2a. Avaliação__ (a ser confirmado)
+| 15 | 01/06 | Integridade e Segurança
+| -- | 08/06 | __2a. Avaliação__
 
 <br>
 
