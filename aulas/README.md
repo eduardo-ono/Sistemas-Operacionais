@@ -250,7 +250,11 @@ Prof. Eduardo Ono
 
   ### Gerenciamento de Arquivos
   </summary>
-  <section markdown="1">
+  <section markdown="1"><br>
+
+  * Tópicos
+
+    * [Sistemas de Arquivos](../conteudo/07-gerenciamento-de-arquivos/sistemas-de-arquivos/)
 
   * Vídeos de Apoio
 
