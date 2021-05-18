@@ -1,12 +1,12 @@
 > ### Sistemas Operacionais > Conteúdo > Gerenciamento de Arquivos
 
-# Sistemas de Arquivos
+# Sistema de Arquivos
 
 Prof. Eduardo Ono
 
 <br>
 
-## Overview
+## Conceitos
 
 <br>
 

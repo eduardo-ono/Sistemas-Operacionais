@@ -252,11 +252,11 @@ Prof. Eduardo Ono
   </summary>
   <section markdown="1"><br>
 
-  * Tópicos
+  * #### Tópicos
 
-    * [Sistemas de Arquivos](../conteudo/07-gerenciamento-de-arquivos/sistemas-de-arquivos/)
+    * [Sistemas de Arquivos](../conteudo/07-gerenciamento-de-arquivos/sistema-de-arquivos/)
 
-  * Vídeos de Apoio
+  * #### Vídeos de Apoio
 
   | Gerenciamento de Arquivos |
   | --- |
@@ -265,7 +265,8 @@ Prof. Eduardo Ono
   | Sistemas de Arquivos |
   | [![](https://img.youtube.com/vi/KPWtWB0x9rI/default.jpg)](https://www.youtube.com/watch?v=KPWtWB0x9rI "[Bóson Treinamentos] O que é um Sistema de Arquivos - Curso de Hardware \|\| 9:55, YouTube, Abr/2019.")
 
-  * Exercício
+  * #### Exercícios
+
     * Implementar um programa em C que receba como parâmetro o path de algum diretório. O programa deverá listar todos os arquivos e subdiretório contidos no diretório fornecido. Caso nenhum parâmetro seja fornecido, o programa deverá considerar o diretório corrente.
 
   </section>
