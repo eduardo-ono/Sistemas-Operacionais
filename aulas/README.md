@@ -286,7 +286,7 @@ Prof. Eduardo Ono
 
     * Apontar, no vídeo a seguir, os principais erros de conceitos cometidos:
 
-      | [![](https://img.youtube.com/vi/KPWtWB0x9rI/default.jpg)](https://www.youtube.com/watch?v=KPWtWB0x9rI "[Bóson Treinamentos] TRANSFORMANDO MEMÓRIA RAM EM UM SSD NVME, ISSO É MUITO RÁPIDO \|\| 12:52, YouTube, Mai/2021.")
+      | [![](https://img.youtube.com/vi/8Md8cHhpZUk/default.jpg)](https://www.youtube.com/watch?v=8Md8cHhpZUk "[Bóson Treinamentos] TRANSFORMANDO MEMÓRIA RAM EM UM SSD NVME, ISSO É MUITO RÁPIDO \|\| 12:52, YouTube, Mai/2021.")
       | --- |
 
   </section>
