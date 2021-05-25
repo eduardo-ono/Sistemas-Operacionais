@@ -46,7 +46,7 @@ Prof. Eduardo Ono
 
 | Capa | Título |
 | :-:  | ---    |
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | [<a id="TANENBAUM-4e_2016">TANENBAUM_2016] <br> TANENBAUM, Andrew. S.; BOS, Herbert. [**Sistemas Operacionais Modernos, 4. ed.**](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | [<a id="TANENBAUM-4e_2016">TANENBAUM-4e_2016</a>] <br> TANENBAUM, Andrew. S.; BOS, Herbert. [__Sistemas Operacionais Modernos, 4. ed.__](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
   <img src="./referencias/capas/silberschatz_2015.jpg" width="100px"> | [SILBERSCHATZ_2015] <br> SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais: Princípios Básicos, 9. ed.**, Rio de Janeiro: LTC, 2015.
   <img src="./referencias/capas/stallings_2017.jpg" width="100px"> | [STALLINGS_2017] <br> STALLINGS, Willian. **Operating Systems: Internals and Design Principles, 9. ed.**, Pearson, 2017.
 
@@ -73,8 +73,8 @@ Prof. Eduardo Ono
 
 || Descrição |
 | :-: | --- |
-| [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013) \|\| YouTube
-| [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015) \|\| YouTube
+| [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013)
+| [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015)
 | [![Trailer](https://img.youtube.com/vi/s4pVFLUlx8g/default.jpg)](https://youtu.be/s4pVFLUlx8g) | History of Steve Jobs (Full Documentary) \|\| 1:06:03, YouTube, Mar/2021.
 
 <br>

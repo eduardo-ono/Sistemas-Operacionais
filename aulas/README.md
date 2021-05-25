@@ -269,6 +269,8 @@ Prof. Eduardo Ono
         * Segmentação
           > Blocos de tamanho variável, chamados de segmentos. Contém mesmo tipo de informação.
 
+    * RAM Disk
+    
   * #### Vídeos de Apoio
 
     | __Gerenciamento de Memória__ |
@@ -318,6 +320,46 @@ Prof. Eduardo Ono
   * #### Exercícios
 
     * Implementar um programa em C que receba como parâmetro o path de algum diretório. O programa deverá listar todos os arquivos e subdiretório contidos no diretório fornecido. Caso nenhum parâmetro seja fornecido, o programa deverá considerar o diretório corrente.
+
+  </section>
+</details>
+
+---
+
+<details>
+  <summary>Aula 14
+
+  ### Gerenciamento de Periféricos
+  </summary>
+  <section markdown="1"><br>
+
+  * #### Tópicos
+
+    * [Gerenciamento de E/S](../conteudo/gerenciamento-de-perifericos/)
+      * Ref.: [[TANENBAUM-4e_2016]]
+    
+    * Técnicas de E/S
+
+      * Independência de dispositivo
+        * Cabe ao S.O. cuidar das particularidades
+      * Nomenclatura uniforme
+
+      * Modos de Operação de E/S
+        * E/S programada
+          * Resposabilidade total da CPU
+          * Os dados são trocados entre a CPU e o módeulo de E/S
+        * E/S via interrupções
+        * E/S via acesso direto à memória (DMA)
+          * Vantagens x Desvantagens
+          * Necessita de uma controladora DMA
+
+
+  * #### Vídeos de Apoio
+
+    | Gerenciamento de Periféricos |
+    | --- |
+    | Gerenciamento de E/S |
+    | [![](https://img.youtube.com/vi/E0HHKJPIwmg/default.jpg)](https://www.youtube.com/watch?v=E0HHKJPIwmg "[Diolinux] Sistemas Operacionais – Aula 21 – Introdução à E/S \|\| 27:05, YouTube, Jun/2017.")
 
   </section>
 </details>

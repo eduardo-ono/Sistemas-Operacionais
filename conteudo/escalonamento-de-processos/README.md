@@ -23,7 +23,7 @@ Prof. Eduardo Ono
 
 * ### Escalonamento em Sistemas Interativos
 
-  * Round-Robin (Turno Rotativo ou Circular)
+  * [Round-Robin (Turno Rotativo ou Circular)](./round-robin/)
   * Prioridade
   * Múltiplas Filas
   * Shortest Process Next

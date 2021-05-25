@@ -8,9 +8,9 @@ Prof. Eduardo Ono
 
 ## Conceitos
 
-> **Linux** é um kernel desenvolvido por Linus Torvalds, e compreende um conjunto de gerenciadores dos recursos do sistema.
+> __*Linux*__ é um kernel desenvolvido por Linus Torvalds, e que compreende um conjunto de gerenciadores dos recursos do sistema.
 
-> O Ubuntu é uma das principais e mais utilizadas distribuições Linux utilizadas. É mantida pela Canonical.
+> O __*Ubuntu*__ é uma das mais utilizadas distribuições Linux existentes. É mantida pela empresa Canonical.
 
 <br>
 

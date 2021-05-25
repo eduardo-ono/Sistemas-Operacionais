@@ -8,7 +8,7 @@ Prof. Eduardo Ono
 
 ## Referências
 
-* [[TANENBAUM-4e_2016]]
+* [[TANENBAUM-4e_2016]] Cap. 2, pp. 109-110.
 
 <br>
 
@@ -18,6 +18,7 @@ Prof. Eduardo Ono
 * A lista de processos é implementada como uma fila circular.
 * Quantum: tempo máximo no qual um processo pode utilizar a CPU ininterruptamente. Tem por objetivo evitar o monopólio da CPU por um único processo.
 
+<br>
 
 ## Exemplos
 
@@ -29,17 +30,24 @@ Prof. Eduardo Ono
 | :-: | --- |
 | [![](https://img.youtube.com/vi/MWbPgxOCrFk/default.jpg)](https://www.youtube.com/watch?v=MWbPgxOCrFk "") | [UNIVESP] <br> [**Sistemas Operacionais – Aula 06 - Escalonamento de Processo**](https://www.youtube.com/watch?v=MWbPgxOCrFk) \|\| 25:52, YouTube, Mai/2017.
 
+<br>
+
 ## Exercícios Resolvidos
 
-1. [ENADE-2019_Eng-Computação (adaptado)] Suponha que um Sistema Operacional utilize o algoritmo Round-Robin de escalonamento e precise executar dois processos, ambos com tempo de tarefa de 20 ms. Objetivando-se minimizar o tempo de resposta do sistema, determine o _quantum_ e o tempo de troca de contexto, respectivamente, dentre as alternativas apresentadas a seguir:
+1. [ENADE-2019_Eng-Computação (adaptado)] Suponha que um Sistema Operacional utilize o algoritmo _Round-Robin_ de escalonamento e precise executar dois processos, ambos com tempo de tarefa de 20 ms. Objetivando-se minimizar o tempo de resposta do sistema, determine o _quantum_ e o tempo de troca de contexto, respectivamente, dentre as alternativas apresentadas a seguir:
 
-    * [x] 5 ms e 1 ms.
-    * [ ] 4 ms e 2 ms.
-    * [ ] 5 ms e 3 ms.
-    * [ ] 2 ms e 1 ms.
-    * [ ] 2 ms e 2 ms.
+  * a) [x] 5 ms e 1 ms.
+  * b) [ ] 4 ms e 2 ms.
+  * c) [ ] 5 ms e 3 ms.
+  * d) [ ] 2 ms e 1 ms.
+  * e) [ ] 2 ms e 2 ms.
 
-    Resp.: | 5(A) | 1 | 5(B) | 1 | 5(A) | 1 | 5(B) | 1 | 5(A) | 1 | 5(B) | 1 | 5(A) | 1 | 5(B) --> _t_<sub>resp</sub> = 47 ms.
+    Resp.:
+    
+    ![fig](./exercicios-resolvidos.png)
+
+1. [Daniel Silos (adaptado)] Considere que o algoritmo de Round-Robin esteja sendo utilizado e os processoa a seguir chegue no momento 0 (zero), com a extensão do tempo de _burst_ da CPU indicada em milissegundos.
+
 
 1. Suponha os processos A, B, C, e D com tempos de chegada (Arrival Time - AT) e duração de cada processo (Processing Time - PT) conforme a tabela a seguir:
 
@@ -54,10 +62,10 @@ Prof. Eduardo Ono
     | A(2) || B(2) || A(2) || C(1) || B(2) || D(2) || A(2) || B(1) || D(2) || A(2) |
     | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-    t<sub>_A_</sub> = 18 - 8 = 10 ms
-    t<sub>_B_</sub> = 14 - 1 - 5 = 8 ms
-    t<sub>_C_</sub> = 7 - 3 - 1 = 3 ms
-    t<sub>_D_</sub> = 16 - 6 - 4 = 6 ms
+    t<sub>_A_</sub> = 18 - 8 = 10 ms <br>
+    t<sub>_B_</sub> = 14 - 1 - 5 = 8 ms <br>
+    t<sub>_C_</sub> = 7 - 3 - 1 = 3 ms <br>
+    t<sub>_D_</sub> = 16 - 6 - 4 = 6 ms <br>
 
     t<sub>médio</sub> = (10 + 8 + 3 + 6) / 4 = 6,75 ms
 
@@ -77,4 +85,4 @@ TT = Tempo total de execução (Turnaround Time)
 
 <br>
 
-[TANENBAUM-4e_2016]: ../../referencias/README.md#TANENBAUM-4e_2016
+[TANENBAUM-4e_2016]: /referencias/README.md#TANENBAUM-4e_2016
