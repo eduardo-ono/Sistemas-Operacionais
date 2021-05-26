@@ -39,6 +39,7 @@ Prof. Eduardo Ono
   * [Instalação do Ubuntu 20.04 LTS junto ao Windows 10](./conteudo/ambiente-de-desenvolvimento/README.md#ubuntu)
 * GCC (Compilador C/C++)
 * Extensão GitHub + Mermaid (Alex Mercier) para o Google Chrome e [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/github-mermaid/)
+* [OSDev.org](https://wiki.osdev.org/Main_Page)
 
 <br>
 

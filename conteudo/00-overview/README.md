@@ -15,3 +15,11 @@ Prof. Eduardo Ono
 | [![](https://img.youtube.com/vi/mXw9ruZaxzQ/default.jpg)](https://www.youtube.com/watch?v=mXw9ruZaxzQ "") | [Academic Lesson] <br> [**Operating System Full Course \| Operating System Tutorials for Beginners**](https://www.youtube.com/watch?v=mXw9ruZaxzQ) \|\| 3:35:02, YouTube, Ago/2019.
 
 <br>
+
+## Desenvolvimento de Sistemas Operacionais
+
+* [OSDev.org](https://wiki.osdev.org/Main_Page)
+* [Writing a Simple Operating System — from Scratch](https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf)
+* https://github.com/cfenollosa/os-tutorial
+
+<br>
