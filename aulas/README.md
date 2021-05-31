@@ -207,7 +207,7 @@ Prof. Eduardo Ono
   * #### Tópicos
 
     * Conceitos
-      * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016]
+      * Ref.: [[TANENBAUM-4e_2016]]
 
 
   * #### Vídeos de Apoio
@@ -233,7 +233,7 @@ Prof. Eduardo Ono
 
     * Fundamentos
       * Espaço de Endereçamento
-        * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016], Cap. 3, pp. 125-129.
+        * Ref.: [[TANENBAUM-4e_2016]] Cap. 3, pp. 125-129.
       * Abordagens gerais para lidar com a sobrecarga da memória principal
         * Swapping (Troca de processos)
           * Gerenciamento
@@ -249,13 +249,13 @@ Prof. Eduardo Ono
           > Blocos de tamanho fixo (ex. 4 KB).
           * Tabelas de Páginas
             * Estruturas de Tabelas de Páginas
-              * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 141-144.
+              * Ref.: [[TANENBAUM-4e_2016]] Cap. 3, pp. 141-144.
               * Tabelas de página multinível
               * Tabelas Hash
               * Tabelas de páginas invertidas
           * Algoritmos de Substituição de Páginas
             * [Resumo](../conteudo/06a-gerenciamento-de-memoria/memoria-virtual/algoritmos-substituicao-paginas.md)
-            * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016] Cap. 3, pp. 144-153.
+            * Ref.: [[TANENBAUM-4e_2016]] Cap. 3, pp. 144-153.
             * Ótimo
             * NRU (não usadas recentemente)
             * FIFO (primeiro a entrar, primeiro a sair)
@@ -306,7 +306,7 @@ Prof. Eduardo Ono
   * #### Tópicos
 
     * [Sistemas de Arquivos](../conteudo/07-gerenciamento-de-arquivos/sistema-de-arquivos/)
-      * Ref.: [TANENBAUM-4e_2016][TANENBAUM-4e_2016]
+      * Ref.: [[TANENBAUM-4e_2016]]
 
   * #### Vídeos de Apoio
 
