@@ -57,6 +57,13 @@ Prof. Eduardo Ono
     | C |  3 |  1 |
     | D |  6 |  4 |
 
+    Determine o tempo médio na execução dos processos.
+
+    <br>
+
+    Resp.: 
+
+    Fila de execução:
 
     | A(2) || B(2) || A(2) || C(1) || B(2) || D(2) || A(2) || B(1) || D(2) || A(2) |
     | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
