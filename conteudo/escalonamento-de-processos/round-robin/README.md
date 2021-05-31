@@ -59,8 +59,6 @@ Prof. Eduardo Ono
 
     Determine o tempo médio na execução dos processos.
 
-    <br>
-
     Resp.: 
 
     Fila de execução:
@@ -79,7 +77,7 @@ Prof. Eduardo Ono
 
 __Ignorar o restante (em elaboração)__
 
-1. dfvfd
+1.
 
 WT = Tempo de espera (Waiting Time)
 TT = Tempo total de execução (Turnaround Time)

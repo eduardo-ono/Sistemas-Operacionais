@@ -18,7 +18,7 @@ Prof. Eduardo Ono
 * ### Escalonamento em Sistemas do Tipo Batch (Lote)
 
   * First-Come First-Served (FCFS ou First-In Firts-Out - FIFO)
-  * Shortest Job First (SJF)
+  * [Shortest Job First (SJF)](./sjf/)
   * Shortest Remaining Time Next
 
 * ### Escalonamento em Sistemas Interativos
