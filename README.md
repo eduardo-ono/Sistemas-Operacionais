@@ -13,20 +13,19 @@ Prof. Eduardo Ono
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
 | 01 | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
-| 02 | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais>
-| 03 | 02/03 | Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 04 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 05 | 16/03 | Concorrência e Paralelismo; Processos e Threads
-| 06 | 23/03 | Threads em Linguagem C (POSIX)
-| 07 | 30/03 | Região Crítica e Exclusão Mútua
-| 08 | 06/04 | Semáforos e Mutex
+| 02 | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
+| 03 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| 04 | 16/03 | Concorrência e Paralelismo; Processos e Threads
+| 05 | 23/03 | Threads em Linguagem C (POSIX)
+| 06 | 30/03 | Região Crítica e Exclusão Mútua
+| 07 | 06/04 | Semáforos e Mutex
 | 08 | 13/04 | Algoritmo da Padaria de Lamport
 | 09 | 20/04 | Problemas Clássicos de Sincronização; __1a. Avaliação__
 | 10 | 27/04 | Escalonamento de Processos;
 | 11 | 04/05 | Gerenciamento de Memória: Memória Principal e Secundária
 | 12 | 11/05 | Gerenciamento de Memória: Memória Virtual
 | 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
-| 14 | 25/05 | Gerenciamento de Periféricos: Técnicas de E/S
+| 14 | 25/05 | Gerenciamento de Periféricos; Técnicas de E/S
 | 15 | 01/06 | Integridade e Segurança
 | -- | 08/06 | __2a. Avaliação__
 
@@ -61,7 +60,7 @@ Prof. Eduardo Ono
   <img src="./referencias/capas/silberschatz_2013.jpg" width="100px"> | [SILBERSCHATZ_2013] SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. [**Operating Systems Concepts, 9. ed.**](https://archive.org/details/operating-system-concepts/), John Wiley & Sons, 2013.
   <img src="./referencias/capas/tanenbaum_2008.jpg" width="100px"> | [TANENBAUM_2008] TANENBAUM, Andrew S.; WOODHULL, Albert S. **Sistemas Operacionais - Projeto e Implementação, 3. ed.**, 2008.
   <img src="./referencias/capas/tanenbaum_2006.jpg" width="100px"> | [TANENBAUM_2006] TANENBAUM, Andrew S.; WOODHULL, Albert S. [**Operating Systems - Design and Implementation, 3. ed.**](https://archive.org/details/tanenbaum_woodhull_operating-systems-design-implementation-3rd-edition), Pearson Education, Inc., 2006.
-  <img src="./referencias/capas/stuart_2010.jpg" width="100px"> | [STUART_2011] STUART, Brian L. **Princípios de Sistemas Operacionais - Projetos e Aplicações**, São Paulo: Cengage Learning, 2011.
+  <img src="./referencias/capas/stuart_2010.jpg" width="100px"> | <a id="STUART_2011"></a> [STUART_2011] STUART, Brian L. __Princípios de Sistemas Operacionais - Projetos e Aplicações__, São Paulo: Cengage Learning, 2011.
   <img src="https://images-na.ssl-images-amazon.com/images/I/41jV2a9YjsL._SX379_BO1,204,203,200_.jpg" width="100px"> | [MACHADO_2007] MACHADO, Francis B.; MAIA, Luiz P. **Arquitetura de Sistemas Operacionais, 4. ed.**, Rio de Janeiro: LTC, 2007.
 
   * https://goalkicker.com/LinuxBook/

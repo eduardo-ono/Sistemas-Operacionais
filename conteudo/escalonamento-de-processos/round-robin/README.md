@@ -46,8 +46,7 @@ Prof. Eduardo Ono
     
     ![fig](./exercicios-resolvidos.png)
 
-1. [Daniel Silos (adaptado)] Considere que o algoritmo de Round-Robin esteja sendo utilizado e os processoa a seguir chegue no momento 0 (zero), com a extensão do tempo de _burst_ da CPU indicada em milissegundos.
-
+<br>
 
 1. Suponha os processos A, B, C, e D com tempos de chegada (Arrival Time - AT) e duração de cada processo (Processing Time - PT) conforme a tabela a seguir:
 
@@ -68,6 +67,10 @@ Prof. Eduardo Ono
     t<sub>_D_</sub> = 16 - 6 - 4 = 6 ms <br>
 
     t<sub>médio</sub> = (10 + 8 + 3 + 6) / 4 = 6,75 ms
+
+<br>
+
+__Ignorar o restante (em elaboração)__
 
 1. dfvfd
 

@@ -22,7 +22,7 @@ Suponha que recebamos três _jobs_, _a_, _b_ e _c_ com _t_<sub>_a_</sub> = 20, _
 
     e o tempo de vida médio _T_<sub>_m_</sub> é <br>
 
-    _T_<sub>_m_</sub> = (20 + 70 + 10)/3 = 56,67. <br><br>
+    _T_<sub>_m_</sub> = (20 + 70 + 80)/3 = 56,67. <br><br>
 
     Comparando, se utilizarmos o escalonamneto SJF (_Shortest Job First_), executaremos os _jobs_ na ordem _c_, _a_, _b_, conforme ilustrado na figura (tabela) a seguir:
 
@@ -43,4 +43,4 @@ Suponha que recebamos três _jobs_, _a_, _b_ e _c_ com _t_<sub>_a_</sub> = 20, _
 
 <br>
 
-[STUART_2011]: scvsdf
+[STUART_2011]: /README.md#STUART_2011
