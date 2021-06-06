@@ -24,6 +24,14 @@ Endereços Fisicos: Endereço real na memória principal (RAM)
 
 <br>
 
+## Vídeos Recomendados
+
+|||
+| :-: | --- |
+| ![img](https://img.youtube.com/vi/S03EXcOkdh4/default.jpg) | [Diolinux] <br> [__O que é SWAP? - Como funciona? Qual o tamanho ideal?__](https://www.youtube.com/watch?v=S03EXcOkdh4) \|\| 9:30, YouTube, Fev/2019.
+
+<br>
+
 ## Referências Bibliográficas
 
 || Descrição |
