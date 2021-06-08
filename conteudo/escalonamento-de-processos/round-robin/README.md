@@ -46,9 +46,9 @@ Prof. Eduardo Ono
     
     ![fig](./exercicios-resolvidos.png)
 
-<br>
+---
 
-1. [Daniel Silos](https://www.youtube.com/watch?v=_iBmD3neoog) O escalonamento de CPU trata do problema de decidir qual dos processos na fila de prontos deve ser entregue à CPU. Considere que o algoritmo de escalonamento de Round-Robin esteja sendo utilizado e que o conjunto de processos abaixo chegue no momento zero, com a extensão do tempo de _burst_ de CPU indicada em milissegundos. Dado: P1 é o primeiro processo na fila de prontos, P2 é o segundo, P3 é o terceiro e P4 é o quarto.
+1. [[Daniel Silos, YouTube](https://www.youtube.com/watch?v=_iBmD3neoog)] O escalonamento de CPU trata do problema de decidir qual dos processos na fila de prontos deve ser entregue à CPU. Considere que o algoritmo de escalonamento de Round-Robin esteja sendo utilizado e que o conjunto de processos abaixo chegue no momento zero, com a extensão do tempo de _burst_ de CPU indicada em milissegundos. Dado: P1 é o primeiro processo na fila de prontos, P2 é o segundo, P3 é o terceiro e P4 é o quarto.
 
 | Processo | Tempo de Execução (ms) |
 | :-: | :-: |
@@ -86,7 +86,7 @@ _T_ esp.<sub>P4</sub> = 20 - 5 = 15 <br><br>
 
 _T_ <sub>médio esp.</sub> = (16 + 5 + 20 + 15) / 4 = 14
 
-<br>
+---
 
 1. Suponha os processos A, B, C, e D com tempos de chegada (Arrival Time - AT) e duração de cada processo (Processing Time - PT) conforme a tabela a seguir:
 
@@ -113,7 +113,7 @@ _T_ <sub>médio esp.</sub> = (16 + 5 + 20 + 15) / 4 = 14
 
     t<sub>médio execução</sub> = (10 + 8 + 3 + 6) / 4 = 6,75 ms
 
-<br>
+---
 
 __Ignorar o restante (em elaboração)__
 
