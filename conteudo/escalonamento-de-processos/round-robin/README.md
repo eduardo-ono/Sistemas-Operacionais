@@ -48,30 +48,70 @@ Prof. Eduardo Ono
 
 <br>
 
+1. [Daniel Silos](https://www.youtube.com/watch?v=_iBmD3neoog) O escalonamento de CPU trata do problema de decidir qual dos processos na fila de prontos deve ser entregue à CPU. Considere que o algoritmo de escalonamento de Round-Robin esteja sendo utilizado e que o conjunto de processos abaixo chegue no momento zero, com a extensão do tempo de _burst_ de CPU indicada em milissegundos. Dado: P1 é o primeiro processo na fila de prontos, P2 é o segundo, P3 é o terceiro e P4 é o quarto.
+
+| Processo | Tempo de Execução (ms) |
+| :-: | :-: |
+| P1 | 15 |
+| P2 |  5 |
+| P3 |  6 |
+| P4 |  5 |
+
+Se for utilizado um quantum (_time-slice_) de 5 ms, o __tempo de espera médio__ será de:
+
+* a) [ ] 11
+* b) [ ] 12
+* c) [ ] 13
+* d) [x] 14
+* e) [ ] 15
+
+<br>
+
+Resp.:
+
+|        |        |        |        |        |     |        |
+| ---    | ---    | ---    | ---    | ---    | --- | ---    |
+| ##P1## |        |        |        |        |     |        |
+|        | ##P2## |
+|        |        | ##P3## |
+|        |        |        | ##P4## |
+|        |        |        |        | ##P1## |
+|        |        |        |        |        | P3  |
+|        |        |        |        |        |     | ##P1## |
+
+_T_ esp.<sub>P1</sub> = 31 - 15 = 16 <br>
+_T_ esp.<sub>P2</sub> = 10 - 5 = 5 <br>
+_T_ esp.<sub>P3</sub> = 26 - 6 = 20 <br>
+_T_ esp.<sub>P4</sub> = 20 - 5 = 15 <br><br>
+
+_T_ <sub>médio esp.</sub> = (16 + 5 + 20 + 15) / 4 = 14
+
+<br>
+
 1. Suponha os processos A, B, C, e D com tempos de chegada (Arrival Time - AT) e duração de cada processo (Processing Time - PT) conforme a tabela a seguir:
 
-    |     | AT | PT | WT | TT |
-    | --: | :-: | :-: | :-: | :-: |
-    | A |  0 |  8 |   |  |
+    | Processo | AT | PT |
+    | :-: | :-: | :-: |
+    | A |  0 |  8 |
     | B |  1 |  5 |
     | C |  3 |  1 |
     | D |  6 |  4 |
 
-    Determine o tempo médio na execução dos processos.
+    Determine o tempo de espera médio na execução dos processos.
 
     Resp.: 
 
-    Fila de execução:
+    Sequência de execução:
 
-    | A(2) || B(2) || A(2) || C(1) || B(2) || D(2) || A(2) || B(1) || D(2) || A(2) |
-    | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+    | A(2) | B(2) | A(2) | C(1) | B(2) | D(2) | A(2) | B(1) | D(2) | A(2) |
+    | ---  | ---  | ---  | ---  | ---  | ---  | ---  | ---  | ---  | ---  |
 
-    t<sub>_A_</sub> = 18 - 8 = 10 ms <br>
-    t<sub>_B_</sub> = 14 - 1 - 5 = 8 ms <br>
-    t<sub>_C_</sub> = 7 - 3 - 1 = 3 ms <br>
-    t<sub>_D_</sub> = 16 - 6 - 4 = 6 ms <br>
+    _t_<sub>esp.</sub>(A) = 18 - 8 = 10 ms <br>
+    _t_<sub>esp.</sub>(B) = 14 - 1 - 5 = 8 ms <br>
+    _t_<sub>esp.</sub>(C) = 7 - 3 - 1 = 3 ms <br>
+    _t_<sub>esp.</sub>(D) = 16 - 6 - 4 = 6 ms <br>
 
-    t<sub>médio</sub> = (10 + 8 + 3 + 6) / 4 = 6,75 ms
+    t<sub>médio execução</sub> = (10 + 8 + 3 + 6) / 4 = 6,75 ms
 
 <br>
 
@@ -82,14 +122,14 @@ __Ignorar o restante (em elaboração)__
 WT = Tempo de espera (Waiting Time)
 TT = Tempo total de execução (Turnaround Time)
 
-    |     | AT  | PT  | WT  |  TT |
-    | :-- | :-: | :-: | :-: | :-: |
-    | P1  |  0  | 10  |  0  |
-    | P2  |  0  |  5  |  5  |
-    | P3  |  4  |  8  |
-    | P4  | 10  |  3  |
+|     | AT  | PT  | WT  |  TT |
+| :-- | :-: | :-: | :-: | :-: |
+| P1  |  0  | 10  |  0  |
+| P2  |  0  |  5  |  5  |
+| P3  |  4  |  8  |
+| P4  | 10  |  3  |
 
-    | P1(5) | P2(5) |
+| P1(5) | P2(5) |
 
 <br>
 
