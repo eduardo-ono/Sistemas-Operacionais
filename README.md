@@ -30,7 +30,7 @@ Prof. Eduardo Ono
 | 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
 | 14 | 25/05 | Gerenciamento de Periféricos; Técnicas de E/S
 | 15 | 01/06 | Integridade e Segurança
-| -- | 08/06 | __2a. Avaliação__
+| -- | 08/06 | Revisão do conteúdo; __2a. Avaliação__
 
 <br>
 
