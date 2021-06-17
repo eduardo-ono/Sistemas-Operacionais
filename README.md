@@ -6,8 +6,10 @@ Prof. Eduardo Ono
 
 ## Descrição
 
-| [![img](https://img.youtube.com/vi/_uVe3pU9yhw/hqdefault.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021")](https://www.youtube.com/watch?v=_uVe3pU9yhw) |
+| Windows "Sun Valley" (Windows 11?)
 | --- |
+| [![img](https://img.youtube.com/vi/_uVe3pU9yhw/hqdefault.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw)
+| [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/hqdefault.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
 
 <br>
 
@@ -31,16 +33,18 @@ Prof. Eduardo Ono
 | 14 | 25/05 | Gerenciamento de Periféricos; Técnicas de E/S
 | 15 | 01/06 | Integridade e Segurança
 | -- | 08/06 | Revisão do conteúdo; __2a. Avaliação__
+| -- | 15/06 | "Devolutiva" da 2a. Avaliação
+| -- | 22/06 | Avaliação de 2a. Chamada
 
 <br>
 
 ## Recursos
 
 * S.O. Microsoft Windows
-* S.O. Ubuntu 20.04 (ou outra distribuição Linux baseada no Debian)
+* S.O. Ubuntu 20.04 LTS (ou outra distribuição Linux baseada no Debian)
   * [Instalação do Ubuntu 20.04 LTS junto ao Windows 10](./conteudo/ambiente-de-desenvolvimento/README.md#ubuntu)
 * GCC (Compilador C/C++)
-* Extensão GitHub + Mermaid (Alex Mercier) para o Google Chrome e [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/github-mermaid/)
+* Extensão GitHub + Mermaid (Alex Mercier) para o [Google Chrome](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) e [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/github-mermaid/)
 * [OSDev.org](https://wiki.osdev.org/Main_Page)
 
 <br>
