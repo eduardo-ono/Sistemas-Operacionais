@@ -6,9 +6,9 @@ Prof. Eduardo Ono
 
 ## Descrição
 
-| Windows "Sun Valley" (Windows 11?)
+| Windows 11 |
 | --- |
-| [![img](https://img.youtube.com/vi/_uVe3pU9yhw/mqdefault.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) . [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/mqdefault.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
+| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/mqdefault.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) . [![img](https://img.youtube.com/vi/_uVe3pU9yhw/mqdefault.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) . [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/mqdefault.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
 
 <br>
 
