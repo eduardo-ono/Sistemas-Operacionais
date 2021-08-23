@@ -8,7 +8,7 @@ Prof. Eduardo Ono
 
 | Windows 11 |
 | --- |
-| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/mqdefault.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) . [![img](https://img.youtube.com/vi/_uVe3pU9yhw/mqdefault.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) . [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/mqdefault.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
+| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) . [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) . [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
 
 <br>
 
@@ -16,24 +16,24 @@ Prof. Eduardo Ono
 
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
-| 01 | 23/02 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
-| 02 | 02/03 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 03 | 09/03 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 04 | 16/03 | Concorrência e Paralelismo; Processos e Threads
-| 05 | 23/03 | Threads em Linguagem C (POSIX)
-| 06 | 30/03 | Região Crítica e Exclusão Mútua
-| 07 | 06/04 | Semáforos e Mutex
-| 08 | 13/04 | Algoritmo da Padaria de Lamport
-| 09 | 20/04 | Problemas Clássicos de Sincronização; __1a. Avaliação__
-| 10 | 27/04 | Escalonamento de Processos;
-| 11 | 04/05 | Gerenciamento de Memória: Memória Principal e Secundária
-| 12 | 11/05 | Gerenciamento de Memória: Memória Virtual
-| 13 | 18/05 | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
-| 14 | 25/05 | Gerenciamento de Periféricos; Técnicas de E/S
-| 15 | 01/06 | Integridade e Segurança
-| -- | 08/06 | Revisão do conteúdo; __2a. Avaliação__
-| -- | 15/06 | "Devolutiva" da 2a. Avaliação
-| -- | 22/06 | Avaliação de 2a. Chamada
+| 01 | 09/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
+| [02](https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#conceitos-e-hist%C3%B3ria-dos-sistemas-operacionais) | 16/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
+| 03 | 23/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| 04 |  | Concorrência e Paralelismo; Processos e Threads
+| 05 |  | Threads em Linguagem C (POSIX)
+| 06 |  | Região Crítica e Exclusão Mútua
+| 07 |  | Semáforos e Mutex
+| 08 |  | Algoritmo da Padaria de Lamport
+| 09 |  | Problemas Clássicos de Sincronização; __1a. Avaliação__
+| 10 |  | Escalonamento de Processos;
+| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária
+| 12 |  | Gerenciamento de Memória: Memória Virtual
+| 13 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
+| 14 |  | Gerenciamento de Periféricos; Técnicas de E/S
+| 15 |  | Integridade e Segurança
+| 16 |  | Revisão do conteúdo; __2a. Avaliação__
+| -- |  | "Devolutiva" da 2a. Avaliação
+| -- |  | Avaliação de 2a. Chamada
 
 <br>
 

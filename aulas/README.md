@@ -31,7 +31,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 02
+  <summary id="aula-02">Aula 02
 
   ### Interpretador de Comandos; Sistemas Operacionais baseados no kernel Linux
   </summary>
@@ -270,7 +270,7 @@ Prof. Eduardo Ono
           > Blocos de tamanho variável, chamados de segmentos. Contém mesmo tipo de informação.
 
     * RAM Disk
-    
+
   * #### Vídeos de Apoio
 
     | __Gerenciamento de Memória__ |
@@ -337,7 +337,7 @@ Prof. Eduardo Ono
 
     * [Gerenciamento de E/S](../conteudo/gerenciamento-de-perifericos/)
       * Ref.: [[TANENBAUM-4e_2016]]
-    
+
     * Técnicas de E/S
 
       * Independência de dispositivo
