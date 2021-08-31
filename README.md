@@ -16,8 +16,8 @@ Prof. Eduardo Ono
 
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
-| 01 | 09/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação, Revisão de pré-requisitos
-| [02](https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#conceitos-e-hist%C3%B3ria-dos-sistemas-operacionais) | 16/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
+| [01][] | 09/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
+| [02][] | 16/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
 | 03 | 23/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
 | 04 |  | Concorrência e Paralelismo; Processos e Threads
 | 05 |  | Threads em Linguagem C (POSIX)
@@ -34,6 +34,10 @@ Prof. Eduardo Ono
 | 16 |  | Revisão do conteúdo; __2a. Avaliação__
 | -- |  | "Devolutiva" da 2a. Avaliação
 | -- |  | Avaliação de 2a. Chamada
+
+[01]: dfvdfvdf
+[02]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-02
+[03]: kjbkjk
 
 <br>
 
@@ -81,6 +85,7 @@ Prof. Eduardo Ono
 | :-: | --- |
 | [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013)
 | [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015)
+| [![Trailer](https://img.youtube.com/vi/G4VmJcZR0Yg/default.jpg)](https://www.youtube.com/watch?v=G4VmJcZR0Yg) | Ghost in the Shell (2017)
 | [![Trailer](https://img.youtube.com/vi/s4pVFLUlx8g/default.jpg)](https://youtu.be/s4pVFLUlx8g) | History of Steve Jobs (Full Documentary) \|\| 1:06:03, YouTube, Mar/2021.
 
 <br>
