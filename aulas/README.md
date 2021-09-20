@@ -7,7 +7,7 @@ Prof. Eduardo Ono
 <br>
 
 <details>
-  <summary>Aula 01
+  <summary id="aula-01">Aula 01
 
   ### Conceitos e História dos Sistemas Operacionais
   </summary>
@@ -53,7 +53,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 03
+  <summary id="aula-03">Aula 03
 
   ### Passagem de parâmetros por linha de comando (programação em C)
   </summary>
@@ -74,7 +74,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 04
+  <summary id="aula-04">Aula 04
 
   ### Escalonamento em Sistemas Operacionais do Tipo Batch
   </summary>
@@ -93,7 +93,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 05
+  <summary id="aula-05">Aula 05
 
   ### Gerenciamento de Processos - Processos e Threads
   </summary>
@@ -106,7 +106,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 06
+  <summary id="aula-06">Aula 06
 
   ### Comunicação entre Processos
   </summary>
@@ -123,7 +123,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 07
+  <summary id="aula-07">Aula 07
 
   ### Comunicação entre Processos: Algoritmos de Exclusão Mútua
   </summary>
@@ -145,7 +145,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 08
+  <summary id="aula-08">Aula 08
 
   ### Comunicação entre Processos: Semáforos e MUTEX; Deadlock e Starvation
   </summary>
@@ -165,7 +165,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 09
+  <summary id="aula-09">Aula 09
 
   ### Problemas Clássicos de Sincronização
   </summary>
@@ -182,7 +182,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 10
+  <summary id="aula-10">Aula 10
 
   ### Escalonamento de Processos
   </summary>
@@ -198,7 +198,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 11
+  <summary id="aula-11">Aula 11
 
   ### Gerenciamento de Memória: Fundamentos
   </summary>
@@ -223,7 +223,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 12
+  <summary id="aula-12">Aula 12
 
   ### Gerenciamento de Memória: Memória Virtual
   </summary>
@@ -297,7 +297,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 13
+  <summary id="aula-13">Aula 13
 
   ### Gerenciamento de Arquivos
   </summary>
@@ -327,7 +327,7 @@ Prof. Eduardo Ono
 ---
 
 <details>
-  <summary>Aula 14
+  <summary id="aula-14">Aula 14
 
   ### Gerenciamento de Periféricos
   </summary>

@@ -18,8 +18,10 @@ Prof. Eduardo Ono
 
 ### Opção 3: Virtualização do Ubuntu (sem interface gráfica) altravés do WSL 2
 
-* [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
+* https://docs.microsoft.com/pt-br/windows/wsl/install-win10#manual-installation-steps
+* [Rocketseat] https://www.youtube.com/watch?v=hd6lxt5iVsg (24:26)  // Windows 10 Home
 * [David Bombal] https://youtu.be/_fntjriRe48 (20:33)  // Windows 10 Home
+* [TekZoom] https://youtu.be/fRnacEsj1MM (6:50)  // Windows 10 Pro
 
 <br>
 
@@ -29,29 +31,40 @@ Prof. Eduardo Ono
 
   * TDM-GCC: https://jmeubank.github.io/tdm-gcc/
 
-* __Compilador para Linux__
+* __Compilador para Linux__ (Necessário apenas no  WSL 2)
 
   * GCC
 
-    `sudo apt install gcc`
+    ```bash
+    sudo apt update
+    sudo apt upgrade
+    ```
+
+    ```bash
+    sudo apt install gcc
+    ```
 
 * __Configuração da linha de comando__
 
   * Linguagem C
 
-    `gcc -o output_filename -Wall -pthread source_filename.c`
+    `gcc -Wall -pthread -o output_filename source_filename.c`
 
   * Linguagem C++
 
-    `g++ -o output_filename -Wall -pthread source_filename.cpp`
+    `g++ -Wall -pthread -o output_filename source_filename.cpp`
 
 <br>
 
 ## Editor: Microsoft Visual Studio Code (VS Code)
 
+* __Download__
+
+  * https://code.visualstudio.com
+
 * __Extensões__
-  * [Jun Han] Code Runner
-    * Para compilar/executar um programa, usar a combinação de teclas `Ctrl + Alt + N`.
+  * [Jun Han] _Code Runner_
+    * Para compilar/executar um programa, usar a combinação de teclas <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd>.
 
 <br>
 

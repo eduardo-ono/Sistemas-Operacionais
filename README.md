@@ -4,11 +4,13 @@ Prof. Eduardo Ono
 
 <br>
 
-## Descrição
-
 | Windows 11 |
 | --- |
-| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) . [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) . [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4)
+| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4) |
+
+<br>
+
+## Descrição
 
 <br>
 
@@ -18,10 +20,10 @@ Prof. Eduardo Ono
 | :-:  | :-:  | ---      |
 | [01][] | 09/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
 | [02][] | 16/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 03 | 23/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 04 |  | Concorrência e Paralelismo; Processos e Threads
-| 05 |  | Threads em Linguagem C (POSIX)
-| 06 |  | Região Crítica e Exclusão Mútua
+| [03][] | 23/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| [04][] |  | Concorrência e Paralelismo; Processos e Threads
+| [05][] |  | Threads em Linguagem C (POSIX)
+| [06][] |  | Região Crítica e Exclusão Mútua
 | 07 |  | Semáforos e Mutex
 | 08 |  | Algoritmo da Padaria de Lamport
 | 09 |  | Problemas Clássicos de Sincronização; __1a. Avaliação__
@@ -35,9 +37,12 @@ Prof. Eduardo Ono
 | -- |  | "Devolutiva" da 2a. Avaliação
 | -- |  | Avaliação de 2a. Chamada
 
-[01]: dfvdfvdf
+[01]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-01
 [02]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-02
-[03]: kjbkjk
+[03]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-03
+[04]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-04
+[05]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-05
+[06]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-06
 
 <br>
 
