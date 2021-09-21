@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <pthread.h>
 
 void* calcularDivisores1(void* p)
@@ -37,12 +38,18 @@ int main()
 {
     int num1 = 2000000001, num2 = 2000000000;
     pthread_t t0, t1;
+    clock_t now;
+    double tempo;
 
+    now = clock();
     pthread_create(&t0, NULL, calcularDivisores1, (void*)&num1);
     pthread_create(&t1, NULL, calcularDivisores2, (void*)&num2);
 
     pthread_join(t0, NULL);
     pthread_join(t1, NULL);
+    tempo = (double)(clock() - now) / CLOCKS_PER_SEC;
+
+    printf("Tempo de execucao = %.2f\n", tempo);
 
     return 0;
 }
