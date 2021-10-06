@@ -2,12 +2,21 @@
 
 int main()
 {
-    int c;
+    int ch;
 
-    for (c = 32; c < 256; c++)
-        printf("%c ", c);
+    printf("TABELA ASCII ESTENDIDA (8-bit)\n");
+    printf("------------------------------\n");
+    for (ch = 32; ch < 256; ch++)
+    {
+        if (ch % 32 == 0)
+        {
+            printf("\n%3d  ", ch);
+        }
+        printf("%c ", ch);
+    }
 
-    printf("\n");
+    printf("\n\n");
+    printf("Exemplos:\n");
     printf("CASA\n");
     printf("%s\n", "CASA");
     printf("%c%c%c%c\n", 'C', 'A', 'S', 'A');

@@ -7,16 +7,18 @@ Prof. Eduardo Ono
 <br>
 
 <details>
-  <summary id="aula-01">Aula 01
-
-  ### Conceitos e História dos Sistemas Operacionais
+  <summary id="aula-01">
+    <strong>Aula 01 - Conceitos e História dos Sistemas Operacionais</strong>
   </summary>
   <section markdown="1">
 
-  * __Conceitos__
-    * Sistema
-    * Sistema Operacional<br>
-      > Um _*Sistema Operacional*_ é um conjunto de gerenciadores dos componentes de um computador. Fornece também uma interface para que o usuário tenha acesso a esses componentes.
+* __Conceitos__
+
+  * Sistema
+    * Sistema Computacional
+    * Sistema Operacional
+
+      > Um ___Sistema Operacional___ é um conjunto de gerenciadores dos componentes de um computador. Fornece também uma interface para que o usuário tenha acesso a esses componentes.
 
   * __História de Sistemas Operacionais__
     * Microsoft Windows
@@ -331,7 +333,7 @@ Prof. Eduardo Ono
 
   ### Gerenciamento de Periféricos
   </summary>
-  <section markdown="1"><br>
+  <section markdown="1">
 
   * #### Tópicos
 

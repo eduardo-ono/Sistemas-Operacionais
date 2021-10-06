@@ -26,7 +26,7 @@ void* f(void *p)
 		printf("%d\n", num);
 		// Fim da Região Crítica
 	}
-	
+
 	return NULL;
 }
 
@@ -45,9 +45,9 @@ int main()
 	for (i = 0; i < NUM_THREADS; i++)
 	{
 		pthread_join(t[i], NULL);
-	}	
-	
+	}
+
 	printf("--- Fim do programa ---\n");
-	
+
 	return 0;
 }
