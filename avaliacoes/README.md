@@ -49,6 +49,3 @@ Prof. Eduardo Ono
 
 ---
 <sup>Eduardo Ono</sup>
-
-<hr>
-<sup>Eduardo Ono</sup>
