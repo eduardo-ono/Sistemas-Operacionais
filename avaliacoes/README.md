@@ -10,12 +10,12 @@ Prof. Eduardo Ono
 
 * ### Conceitos
 
-| Thumb | Descrição |
-| :-: | --- |
-| [![img](https://img.youtube.com/vi/CCHZ_06DoEA/default.jpg)](https://www.youtube.com/watch?v=CCHZ_06DoEA "Sistemas Operacionais – Aula 01 - Conceito de SO e Histórico") | <sup>[UNIVESP]</sup> [__Sistemas Operacionais – Aula 01 - Conceito de SO e Histórico__](https://www.youtube.com/watch?v=CCHZ_06DoEA) <br> <small>(25:19, YouTube, Mai/2017)</small>
-| [![img](https://img.youtube.com/vi/T7lCM3l7vAQ/default.jpg)](https://www.youtube.com/watch?v=T7lCM3l7vAQ "12 Conceitos de Sistemas Operacionais que todo Estudante de Tecnologia precisa conhecer") | <sup>[Bóson Treinamentos]</sup> [__12 Conceitos de Sistemas Operacionais que todo Estudante de Tecnologia precisa conhecer__](https://www.youtube.com/watch?v=T7lCM3l7vAQ) <br> <small>(22:02, YouTube, Nov/2019)</small>
-| [![Thumb](https://img.youtube.com/vi/K05CssAbQgo/default.jpg)](https://www.youtube.com/watch?v=K05CssAbQgo "O que é Linux? (Explicação COMPLETA para iniciantes) - 2021") | <sup>[Diolinux]</sup> [__O que é Linux? (Explicação COMPLETA para iniciantes) - 2021__](https://www.youtube.com/watch?v=K05CssAbQgo) <br> <small>(10:44, YouTube, Mai/2020)</small>
-| [![img](https://img.youtube.com/vi/UsHiWIgxj2M/default.jpg)](https://www.youtube.com/watch?v=UsHiWIgxj2M "Por que é importante aprender Linux") | <sup>[Bóson Treinamentos]</sup> [__Por que é importante aprender Linux__](https://www.youtube.com/watch?v=UsHiWIgxj2M) <br> <small>(18:52, YouTube, Ago/2017)</small>
+  | Thumb | Descrição |
+  | :-: | --- |
+  | [![img](https://img.youtube.com/vi/CCHZ_06DoEA/default.jpg)](https://www.youtube.com/watch?v=CCHZ_06DoEA "Sistemas Operacionais – Aula 01 - Conceito de SO e Histórico") | <sup>[UNIVESP]</sup> [__Sistemas Operacionais – Aula 01 - Conceito de SO e Histórico__](https://www.youtube.com/watch?v=CCHZ_06DoEA) <br> <small>(25:19, YouTube, Mai/2017)</small>
+  | [![img](https://img.youtube.com/vi/T7lCM3l7vAQ/default.jpg)](https://www.youtube.com/watch?v=T7lCM3l7vAQ "12 Conceitos de Sistemas Operacionais que todo Estudante de Tecnologia precisa conhecer") | <sup>[Bóson Treinamentos]</sup> [__12 Conceitos de Sistemas Operacionais que todo Estudante de Tecnologia precisa conhecer__](https://www.youtube.com/watch?v=T7lCM3l7vAQ) <br> <small>(22:02, YouTube, Nov/2019)</small>
+  | [![Thumb](https://img.youtube.com/vi/K05CssAbQgo/default.jpg)](https://www.youtube.com/watch?v=K05CssAbQgo "O que é Linux? (Explicação COMPLETA para iniciantes) - 2021") | <sup>[Diolinux]</sup> [__O que é Linux? (Explicação COMPLETA para iniciantes) - 2021__](https://www.youtube.com/watch?v=K05CssAbQgo) <br> <small>(10:44, YouTube, Mai/2020)</small>
+  | [![img](https://img.youtube.com/vi/UsHiWIgxj2M/default.jpg)](https://www.youtube.com/watch?v=UsHiWIgxj2M "Por que é importante aprender Linux") | <sup>[Bóson Treinamentos]</sup> [__Por que é importante aprender Linux__](https://www.youtube.com/watch?v=UsHiWIgxj2M) <br> <small>(18:52, YouTube, Ago/2017)</small>
 
 <br>
 
@@ -46,3 +46,6 @@ Prof. Eduardo Ono
   * <strong>Threads (padrão POSIX)<strong>
 
 <br>
+
+---
+<sub>Eduardo Ono</sub>
