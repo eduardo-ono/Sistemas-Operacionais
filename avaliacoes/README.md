@@ -48,4 +48,4 @@ Prof. Eduardo Ono
 <br>
 
 ---
-<sub>Eduardo Ono</sub>
+<sup>Eduardo Ono</sup>
