@@ -1,12 +1,15 @@
- # Sistemas Operacionais
+
+# Sistemas Operacionais
 
 Prof. Eduardo Ono
 
 <br>
 
-| Windows 11 |
-| --- |
-| [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=taZTeXRvwFQ) [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=_uVe3pU9yhw) [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021.")](https://www.youtube.com/watch?v=x_ehPsSn0Y4) |
+|| Windows 11 |
+| :-: | --- |
+| __Instalação__ | [![img](https://img.youtube.com/vi/f8maw1_GNQw/default.jpg)](https://www.youtube.com/watch?v=f8maw1_GNQw "[Adrenaline] PC sem suporte ao Windows 11: mostramos como resolver! \|\| 15:45, YouTube, Out/2021")
+| __WSL__ | [![img](https://img.youtube.com/vi/b1YBx1L8op4/default.jpg)](https://www.youtube.com/watch?v=b1YBx1L8op4 "[Scott Hanselman] Windows 11 runs Graphical Linux Apps out of the box with WSLg \|\| 14:07, YouTube, Out/2021")
+| __Novidades__ | [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg)](https://www.youtube.com/watch?v=taZTeXRvwFQ "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021") [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg)](https://www.youtube.com/watch?v=_uVe3pU9yhw "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021") [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg)](https://www.youtube.com/watch?v=x_ehPsSn0Y4 "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021")
 
 <br>
 
@@ -21,8 +24,8 @@ Prof. Eduardo Ono
 | [01][] | 09/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
 | [02][] | 16/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
 | [03][] | 23/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| [04][] |  | Concorrência e Paralelismo; Processos e Threads
-| [05][] |  | Threads em Linguagem C (POSIX)
+| [04][] | 30/08 | Concorrência e Paralelismo; Processos e Threads
+| [05][] | 13/09 | Threads em Linguagem C (POSIX)
 | [06][] |  | Região Crítica e Exclusão Mútua
 | 07 |  | Semáforos e Mutex
 | 08 |  | Algoritmo da Padaria de Lamport
@@ -61,8 +64,8 @@ Prof. Eduardo Ono
 
 | Capa | Título |
 | :-:  | ---    |
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | [<a id="TANENBAUM-4e_2016">TANENBAUM-4e_2016</a>] <br> TANENBAUM, Andrew. S.; BOS, Herbert. [__Sistemas Operacionais Modernos, 4. ed.__](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
-  <img src="./referencias/capas/silberschatz_2015.jpg" width="100px"> | [SILBERSCHATZ_2015] <br> SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais: Princípios Básicos, 9. ed.**, Rio de Janeiro: LTC, 2015.
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51TeqaTZDwL._SX369_BO1,204,203,200_.jpg" width="100px"> | <sup>[<a id="TANENBAUM-4e_2016">TANENBAUM-4e_2016</a>]</sup> <br> TANENBAUM, Andrew. S.; BOS, Herbert. [__Sistemas Operacionais Modernos, 4. ed.__](https://archive.org/details/SistemasOperacionaisModernosTanenbaum4Edio/), São Paulo: Pearson Education do Brasil, 2016.
+  <img src="./referencias/capas/silberschatz_2015.jpg" width="100px"> | <sup>[SILBERSCHATZ_2015]</sup> <br> SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. **Fundamentos de Sistemas Operacionais: Princípios Básicos, 9. ed.**, Rio de Janeiro: LTC, 2015.
   <img src="./referencias/capas/stallings_2017.jpg" width="100px"> | [STALLINGS_2017] <br> STALLINGS, Willian. **Operating Systems: Internals and Design Principles, 9. ed.**, Pearson, 2017.
 
 <br>
@@ -86,18 +89,18 @@ Prof. Eduardo Ono
 
 ## Filmes e Documentários Recomendados
 
-|| Descrição |
+| Thumb | Descrição |
 | :-: | --- |
-| [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | Jobs (2013)
-| [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | Steve Jobs (2015)
-| [![Trailer](https://img.youtube.com/vi/G4VmJcZR0Yg/default.jpg)](https://www.youtube.com/watch?v=G4VmJcZR0Yg) | Ghost in the Shell (2017)
-| [![Trailer](https://img.youtube.com/vi/s4pVFLUlx8g/default.jpg)](https://youtu.be/s4pVFLUlx8g) | History of Steve Jobs (Full Documentary) \|\| 1:06:03, YouTube, Mar/2021.
+| [![Trailer](https://img.youtube.com/vi/SH1jKZwcS9Y/default.jpg)](https://youtu.be/SH1jKZwcS9Y) | __Jobs__ (2013)
+| [![Trailer](https://img.youtube.com/vi/aEr6K1bwIVs/default.jpg)](https://youtu.be/aEr6K1bwIVs) | __Steve Jobs__ (2015)
+| [![Trailer](https://img.youtube.com/vi/G4VmJcZR0Yg/default.jpg)](https://www.youtube.com/watch?v=G4VmJcZR0Yg) | __Ghost in the Shell__ (2017)
+| [![Trailer](https://img.youtube.com/vi/s4pVFLUlx8g/default.jpg)](https://youtu.be/s4pVFLUlx8g) | __History of Steve Jobs__ (Full Documentary) <br> <sub>(1:06:03, YouTube, Mar/2021)</sub>
 
 <br>
 
 ## Vídeos Recomendados
 
-|| Descrição |
+| Thumb | Descrição |
 | :-: | --- |
 | [![Thumb](https://img.youtube.com/vi/ZAQtwFpkksw/default.jpg)](https://youtu.be/ZAQtwFpkksw) | [60 second] [Um grupo de cinco macacos e dois cientistas](https://www.youtube.com/watch?v=ZAQtwFpkksw) \|\| 1:50, YouTube.
 
