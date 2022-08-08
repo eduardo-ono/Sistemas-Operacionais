@@ -1,12 +1,28 @@
 > ### Sistemas Operacionais > Conteúdo
 
-# Windows PowerShell
+# Windows
 
 Prof. Eduardo Ono
 
 <br>
 
+## Instalação do Windows 11
+
+* https://www.askvg.com/tip-how-to-install-windows-11-with-local-user-account/
+
+* https://www.askvg.com/tip-how-to-complete-windows-11-setup-without-internet-connection/
+
+<br>
+
 ## Conteúdo
+
+<br>
+
+## História
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/OcL932W6E1w/default.jpg)](https://www.youtube.com/watch?v=OcL932W6E1w) | <sup>[CNBC]</sup> [__Why Microsoft keeps beating Apple and Google with Windows__](https://www.youtube.com/watch?v=OcL932W6E1w)<br> <sub>(17:43, YouTube, Jul/2021)</sub>
 
 <br>
 
@@ -50,9 +66,17 @@ Prof. Eduardo Ono
 
 ## Vídeos Recomendados
 
-|||
+| Thumb | Descrição |
 | :-: | --- |
 | ![img](https://img.youtube.com/vi/UVUd9_k9C6A/default.jpg) | [Nerd's lesson] [PowerShell For Beginners Full Course \| PowerShell Beginner tutorial Full Course](https://www.youtube.com/watch?v=UVUd9_k9C6A) \|\| 6:01:46, YouTube, Mar/2021.
+
+* https://www.youtube.com/watch?v=u-raJ1cGDgY
+
+<br>
+
+## Canais Recomendados
+
+* https://www.youtube.com/c/InstitutodeScriptsOficial/videos
 
 <br>
 

@@ -9,9 +9,25 @@ Prof. Eduardo Ono
 
 ## Conceitos
 
-> __*Linux*__ é um kernel desenvolvido por Linus Torvalds, e que compreende um conjunto de gerenciadores dos recursos do sistema.
+> ___Linux___ é um kernel desenvolvido por Linus Torvalds, e que compreende um conjunto de gerenciadores dos recursos do sistema.
 
-> O __*Ubuntu*__ é uma das mais utilizadas distribuições Linux existentes. É mantida pela empresa Canonical.
+> O ___Ubuntu___ é uma das mais utilizadas distribuições Linux existentes. É mantida pela empresa Canonical.
+
+<br>
+
+## Principais Comandos
+
+### Interface Gráfica
+
+* Quando o Linux trava ("congela"):
+
+  * Abrir o terminal e digitar `xkill`. O cursor do mouse irá se transformar em um 'x'. Clicar sobre a janela que está travada.
+
+  * Na impossibilidade de abrir o terminal, clicar em <kbd>Alt</kbd> + <kbd>F2</kbd> e digitar `xkill`. Clicar sobre a janela travada.
+
+  * Na impossibilidade de abrir a caixa de diálogo através dos métodos citados acima, pressionar as teclas <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>PrtScr</kbd> (SysReq) + <kbd>R</kbd><kbd>E</kbd><kbd>I</kbd><kbd>S</kbd><kbd>U</kbd><kbd>B</kbd>. Essa combinação e teclas irá causar o "reboot" do Linux (gentle Linux restart).
+
+  * https://en.wikibooks.org/wiki/Linux_Guide/Freezes
 
 <br>
 

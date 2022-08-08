@@ -27,3 +27,5 @@ Prof. Eduardo Ono
 <br>
 
 * [UNIVESP] [Sistemas Operacionais - Threads](https://www.youtube.com/watch?v=Tbwu55Iov5s) (YouTube, 23:55)
+
+* https://www.youtube.com/playlist?list=PLE638294EA3288272

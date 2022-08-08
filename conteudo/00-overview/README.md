@@ -25,8 +25,10 @@ Prof. Eduardo Ono
 
 ## Vídeos Recomendados
 
-|| Descrição |
+| Thumb | Descrição |
 | :-: | --- |
-| [![](https://img.youtube.com/vi/kkbFqCNgFlE/default.jpg)](https://www.youtube.com/watch?v=kkbFqCNgFlE) | [Alura Cursos Online] <br> [__O MELHOR sistema operacional para programação com Fabio Akita \| #HipstersPontoTube__](https://www.youtube.com/watch?v=kkbFqCNgFlE) \|\| 20:33, YouTube, Jun/2021.
+| [![img](https://img.youtube.com/vi/kkbFqCNgFlE/default.jpg)](https://www.youtube.com/watch?v=kkbFqCNgFlE) | <sup>[Alura Cursos Online]</sup><br>[__O MELHOR sistema operacional para programação com Fabio Akita \| #HipstersPontoTube__](https://www.youtube.com/watch?v=kkbFqCNgFlE)<br><sub>(20:33, YouTube, Jun/2021)</sub>
+| [![img](https://img.youtube.com/vi/lU_Sg3CbSBo/default.jpg)](https://www.youtube.com/watch?v=lU_Sg3CbSBo) | <sup>[Ticker Symbol: YOU]</sup><br>[__The Real Reason AMD Is Worth More Than Intel__](https://www.youtube.com/watch?v=lU_Sg3CbSBo)<br><sub>(18:34, YouTube, Jul/2022)</sub>
+| [![img](https://img.youtube.com/vi/yWIoyFCXCew/default.jpg)](https://www.youtube.com/watch?v=yWIoyFCXCew) | <sup>[Ticker Symbol: YOU]</sup><br>[__One Company Controls ALL Our Tech (so I'm Investing in it)__](https://www.youtube.com/watch?v=yWIoyFCXCew)<br><sub>(14:04, YouTube, Jul/2022)</sub>
 
 <br>

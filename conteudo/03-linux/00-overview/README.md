@@ -1,5 +1,4 @@
-| <sup>[Sistemas Operacionais](../../../) > [Conteúdo](../../) > [Linux](../)</sup> |
-| --- |
+> <h5><a href="https://github.com/eduardo-ono/Sistemas-Operacionais">Sistemas Operacionais</a> > Conteúdo > Linux</h5>
 
 # Overview
 
@@ -20,6 +19,7 @@ Prof. Eduardo Ono
 
 | Thumb | Descrição |
 | :-: | --- |
+| [![img](https://img.youtube.com/vi/tt2nHK0oaSg/default.jpg)](https://www.youtube.com/watch?v=tt2nHK0oaSg) | <sup>[TecMundo]</sup> [__A história do Linux – História da Tecnologia__](https://www.youtube.com/watch?v=tt2nHK0oaSg) <br> <sub>(16:44, YouTube, Out/2021)</sub>
 | [![img](https://img.youtube.com/vi/ShcR4Zfc6Dw/default.jpg)](https://www.youtube.com/watch?v=ShcR4Zfc6Dw) | <sup>[Fireship]</sup> [__Why so many distros? The Weird History of Linux__](https://www.youtube.com/watch?v=ShcR4Zfc6Dw) <br> <sub>(8:22, YouTube, Mar/2021)</sub>
 
 <br>

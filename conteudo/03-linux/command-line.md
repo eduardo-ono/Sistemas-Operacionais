@@ -18,7 +18,6 @@ Prof. Eduardo Ono
 | --- | --- |
 | free -m | Exibe informações do uso da memória principal e do swap
 
-
 | Comando | Descrição |
 | :-: | --- |
 | A; B      | Run A and then B, regardless of success of A
@@ -30,9 +29,12 @@ Prof. Eduardo Ono
 
 ## Vídeos Recomendados
 
-|| Descrição |
+| Thumb | Descrição |
 | :-: | --- |
-| [![](https://img.youtube.com/vi/WVTWCPoUt8w/default.jpg)](https://www.youtube.com/watch?v=WVTWCPoUt8w) | [Computer History Museum]<br>**The Origins of Linux—Linus Torvalds** \|\| 1:25:12, YouTube, Abr/2008.
+| [![img](https://img.youtube.com/vi/WVTWCPoUt8w/default.jpg)](https://www.youtube.com/watch?v=WVTWCPoUt8w) | <sup>[Computer History Museum]</sup><br>[__The Origins of Linux—Linus Torvalds__]<br><sub>(1:25:12, YouTube, Abr/2008)</sub>
+| [![img](https://img.youtube.com/vi/kFh1acsQ8DQ/default.jpg)](https://www.youtube.com/watch?v=kFh1acsQ8DQ) | <sup>[The Linux Experiment]</sup><br>[__9 AMAZING COMMAND LINE TOOLS for Linux__]<br><sub>(17:08, YouTube, Jul/2022)</sub>
+
+* https://www.youtube.com/watch?v=hsDxcJhCRLI
 
 <br>
 
