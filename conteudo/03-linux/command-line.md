@@ -8,7 +8,7 @@ Prof. Eduardo Ono
 
 ## Conceitos
 
-> __*Linux*__ é um kernel desenvolvido por Linus Torvalds, e que compreende um conjunto de gerenciadores dos recursos do sistema.
+> __*Linux*__ é um kernel desenvolvido por Linus Torvalds e que compreende um conjunto de gerenciadores dos recursos do sistema.
 
 <br>
 
@@ -16,14 +16,14 @@ Prof. Eduardo Ono
 
 | | Gerenciador de Memória |
 | --- | --- |
-| free -m | Exibe informações do uso da memória principal e do swap
+| free -m | Exibe informações do uso da memória principal e do swap.
 
 | Comando | Descrição |
 | :-: | --- |
-| A; B      | Run A and then B, regardless of success of A
-| A && B    | Run B if and only if A succeeded
-| A \|\| B  | Run B if and only if A failed
-| A &       | Run A in background.
+| A; B      | Executa A e, em seguida, B, sem considerar o sucesso de A.
+| A && B    | Executa B se, e somente se, A teve sucessso.
+| A \|\| B  | Executa B se, e somente se, A falhou.
+| A &       | Executa A em "background".
 
 <br>
 

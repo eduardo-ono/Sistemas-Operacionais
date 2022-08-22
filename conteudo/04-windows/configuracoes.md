@@ -4,7 +4,14 @@
 
 Prof. Eduardo Ono
 
-<br>
+&nbsp;
+
+## Acesso às Janelas da Interface Gráfica
+
+| Comando | Descrição |
+| :-: | --- |
+| `diskmgmt.msc` | Abre janela `Gerenciamento de Disco`
+| `powercfg.cpl` | Abre a janela `Opções de Energia`
 
 ## Habilitar/Desabilitar o Controle de Hibernação no Menu Iiniciar
 

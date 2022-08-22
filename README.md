@@ -1,10 +1,6 @@
-<div align="center">
+<h1 align="center">Sistemas Operacionais</h1>
 
-# Sistemas Operacionais
-
-__Prof. Eduardo Ono__
-
-</div>
+<h4 align="center">Prof. Eduardo Ono</h4>
 
 &nbsp;
 
@@ -25,20 +21,21 @@ __Prof. Eduardo Ono__
 | :-:  | :-:  | ---      |
 | 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
 | 02 | 15/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 03 | 22/08 | Parâmetros de um programa em C por linha de comando; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 04 | 29/08 | Concorrência e Paralelismo; Processos e Threads
+| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| 04 | 29/08 | Concorrência e Paralelismo; Processos e Threads;
 | 05 |  | Threads em Linguagem C (POSIX)
 | 06 |  | Região Crítica e Exclusão Mútua
 | 07 |  | Semáforos e Mutex
 | 08 |  | Algoritmo da Padaria de Lamport / __1a. Avaliação__
 | 09 |  | Problemas Clássicos de Sincronização;
-| 10 |  | Escalonamento de Processos;
-| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária
-| 12 |  | Gerenciamento de Memória: Memória Virtual
-| 13 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
-| 14 |  | Gerenciamento de Periféricos; Técnicas de E/S
-| 15 |  | Integridade e Segurança
+| 10 |  | Gerenciamento de Processos; Escalonamento de Processos;
+| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual
+| 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
+| 13 |  | Gerenciamento de Periféricos; Técnicas de E/S
+| 14 |  | Integridade e Segurança
 | -- |  | __2a. Avaliação__
+
+[Parâmetros de um programa em C por linha de comando]: ./conteudo/02-cli/README.md
 
 [01]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-01
 [02]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-02

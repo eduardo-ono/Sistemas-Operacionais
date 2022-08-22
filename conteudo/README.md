@@ -1,61 +1,52 @@
-### Sistemas Operacionais
+> Sistemas Operacionais
 
 # Conteúdo
 
-Prof. Eduardo Ono
+__Prof. Eduardo Ono__
 
-<br>
+&nbsp;
 
 ## Sumário
 
-* ### [Overview](./00-overview/)
+* ### [Overview](./00-overview/README.md)
 
-* ### Conceitos de Sistemas Operacionais
-
-* ### Microsoft Windows
-
-* ### Kernel Linux; Distribuições Linux
-
-  * Instalação do Ubuntu 20.04 LTS
-
-* ### Ambientes de Desenvolvimento
+* ### Conceitos
 
 * ### Interface de Linha de Comando (CLI)
 
-* ### Prompt de Comando do Windows; Arquivos de Lote (.BAT)
+    * Parâmetros de um programa em C por linha de comando
 
-* ### Interpretador de Comandos Bash
+* ### Linux
 
-* ### Scripts em Bash (Linux)
+* ### Microsoft Windows
 
-* ### Parâmetros de um programa em C por linha de comando
+    * Prompt de Comando do Windows; Arquivos de Lote (.BAT)
+
+* ### Ambientes de Desenvolvimento
 
 * ### Gerenciamento de Processos
 
-  * #### Concorrência e Paralelismo
-
-  * #### Processos e Threads
-
-  * #### Programação Concorrente; Threads (POSIX)
-
-  * #### Exclusão Mútua
-
-  * #### Semáforos e Mutex
-
-  * #### Escalonamento de Processos
+  * Concorrência e Paralelismo
+  * Processos e Threads
+  * Programação Concorrente; Threads (POSIX)
+  * Exclusão Mútua
+  * Semáforos e Mutex
+  * Escalonamento de Processos
 
 * ### Gerenciamento de Memória
 
-* ### Gerenciamento de Arquivos; Sistemas de Arquivos
+* ### Gerenciamento de Arquivos
+
+  * Sistemas de Arquivos
 
 * ### Gerenciamento de Periféricos
 
 * ### [Integridade e Segurança](./integridade-seguranca)
 
-<br>
+&nbsp;
 
 ## Vídeos Recomendados
 
 * [Joseph Delgadillo] [O Curso Completo de Linux: Iniciante para o Power User!](https://www.youtube.com/watch?v=wBp0Rb-ZJak) (YouTube, 7:23:52)
 
-<br>
+&nbsp;
