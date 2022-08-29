@@ -21,19 +21,18 @@
 | :-:  | :-:  | ---      |
 | 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
 | 02 | 15/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 04 | 29/08 | Concorrência e Paralelismo; Processos e Threads;
-| 05 |  | Threads em Linguagem C (POSIX)
-| 06 |  | Região Crítica e Exclusão Mútua
-| 07 |  | Semáforos e Mutex
-| 08 |  | Algoritmo da Padaria de Lamport / __1a. Avaliação__
+| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Exemplos: Soma de dois números passados pela linha de comando
+| 04 | 29/08 |  Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
+| 05 | 05/09 | Concorrência e Paralelismo; Processos e Threads; Programação de Threads em Linguagem C (padrão POSIX)
+| 06 | 12/09 | Região Crítica e Exclusão Mútua
+| 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport
+| 08 | 26/09 | __1a. Avaliação__
 | 09 |  | Problemas Clássicos de Sincronização;
 | 10 |  | Gerenciamento de Processos; Escalonamento de Processos;
 | 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual
 | 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
 | 13 |  | Gerenciamento de Periféricos; Técnicas de E/S
 | 14 |  | Integridade e Segurança
-| -- |  | __2a. Avaliação__
 
 [Parâmetros de um programa em C por linha de comando]: ./conteudo/02-cli/README.md
 
