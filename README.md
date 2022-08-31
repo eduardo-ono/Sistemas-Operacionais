@@ -19,22 +19,23 @@
 
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
-| 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos
-| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows)
-| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Exemplos: Soma de dois números passados pela linha de comando
-| 04 | 29/08 |  Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux
-| 05 | 05/09 | Concorrência e Paralelismo; Processos e Threads; Programação de Threads em Linguagem C (padrão POSIX)
-| 06 | 12/09 | Região Crítica e Exclusão Mútua
-| 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport
+| 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos.
+| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows).
+| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Função atoi(); Exemplos: Soma de dois números passados pela linha de comando
+| 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`.
+| 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux; Concorrência e Paralelismo; Processos e Threads.
+| 06 | 12/09 |  Programação de Threads em Linguagem C (padrão POSIX); Região Crítica e Exclusão Mútua.
+| 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport.
 | 08 | 26/09 | __1a. Avaliação__
-| 09 |  | Problemas Clássicos de Sincronização;
-| 10 |  | Gerenciamento de Processos; Escalonamento de Processos;
-| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual
-| 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos
-| 13 |  | Gerenciamento de Periféricos; Técnicas de E/S
-| 14 |  | Integridade e Segurança
+| 09 |  | Problemas Clássicos de Sincronização.
+| 10 |  | Gerenciamento de Processos; Escalonamento de Processos.
+| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual.
+| 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos.
+| 13 |  | Gerenciamento de Periféricos; Técnicas de E/S.
+| 14 |  | Integridade e Segurança.
 
 [Parâmetros de um programa em C por linha de comando]: ./conteudo/02-cli/README.md
+[Manipulação de arquivos em linguagem C]: ./conteudo/02-cli/arquivos-em-c/
 
 [01]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-01
 [02]: https://github.com/eduardo-ono/Sistemas-Operacionais/tree/master/aulas#aula-02
