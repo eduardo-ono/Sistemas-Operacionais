@@ -20,14 +20,14 @@
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
 | 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos.
-| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional, Tipos e Estruturas de Sistemas Operacionais; Comandos do Bash (Terminal Linux); Prompt de Comando (Windows).
-| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Função atoi(); Exemplos: Soma de dois números passados pela linha de comando
-| 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`.
+| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional; Tipos e Estruturas de Sistemas Operacionais; Comandos do terminal: Prompt de Comandos no Windows e Bash no Linux.
+| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Função `atoi()`; Exemplo: Soma de dois inteiros passados pela linha de comando.
+| 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
 | 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux; Concorrência e Paralelismo; Processos e Threads.
-| 06 | 12/09 |  Programação de Threads em Linguagem C (padrão POSIX); Região Crítica e Exclusão Mútua.
+| 06 | 12/09 | Programação de threads em C (padrão POSIX); Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
 | 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport.
 | 08 | 26/09 | __1a. Avaliação__
-| 09 |  | Problemas Clássicos de Sincronização.
+| 09 | 03/10 | Semana de Tecnologia e Inovação
 | 10 |  | Gerenciamento de Processos; Escalonamento de Processos.
 | 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual.
 | 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos.
