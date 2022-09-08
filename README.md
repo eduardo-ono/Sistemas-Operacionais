@@ -7,7 +7,6 @@
 | Thumb | Descrição |
 | :-: | --- |
 | [![img](https://img.youtube.com/vi/sAPjd8Y6IM8/default.jpg)](https://www.youtube.com/watch?v=sAPjd8Y6IM8) | <sup>[Flutterando]</sup><br>[__A BOLHA já estourou e ninguem percebeu__](https://www.youtube.com/watch?v=sAPjd8Y6IM8)<br><sub>(13:47, YouTube, Ago/2022)</sub>
-| [![img](https://img.youtube.com/vi/_7ky8o7rdWI/default.jpg)](https://www.youtube.com/watch?v=_7ky8o7rdWI) | <sup>[Liberdade VIP]</sup><br>[__A Modinha PERIGOSA de Querer Ser Programador__](https://www.youtube.com/watch?v=_7ky8o7rdWI)<br><sub>(29:10, YouTube, Ago/2022)</sub>
 
 &nbsp;
 
@@ -20,9 +19,9 @@
 | Aula | Data | Conteúdo |
 | :-:  | :-:  | ---      |
 | 01 | 08/08 | Apresentação da Disciplina, Plano de Ensino e Critérios de Avaliação; Revisão de pré-requisitos.
-| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional; Tipos e Estruturas de Sistemas Operacionais; Comandos do terminal: Prompt de Comandos no Windows e Bash no Linux.
-| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]; Função `atoi()`; Exemplo: Soma de dois inteiros passados pela linha de comando.
-| 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
+| 02 | 15/08 | Conceitos de Sistema e Sistema Operacional; Tipos e Estruturas de Sistemas Operacionais; Introdução aos comandos do terminal: Prompt de Comando e PowerShell no Windows e Bash no Linux.
+| 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]: `argc` e `argv`; Função `atoi()`; Exemplos: Soma de dois inteiros passados pela linha de comando, múltiplos parâmetros.
+| 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos de texto em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
 | 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux; Concorrência e Paralelismo; Processos e Threads.
 | 06 | 12/09 | Programação de threads em C (padrão POSIX); Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
 | 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport.
@@ -70,6 +69,7 @@
 
 | Capa | Título |
 | :-: | --- |
+| <img src="./referencias/capas/DEITEL-6e_2011.jpg" width="100px"> | <sup><a id="DEITEL-6e_2011">[DEITEL-6e_2011]</a></sup><br>DEITEL, P. J.; DEITEL, H.; <strong>C: Como Programar, 6 ed.</strong>, São Paulo : Pearson Prentice Hall, 2011[.](https://app.box.com/s/orpgcu86l21fflmxiqmzdq0cod300i4b)<br><sub>https://www.bvirtual.com.br/NossoAcervo/Publicacao/2660</sub>
 | <img src="./referencias/capas/DENARDIN_2019.jpg" width="100px"> | <sup id="DENARDIN_2019">[DENARDIN_2019]</sup><br>DENARDIN, Gustavo Weber; BARRIQUELLO, Carlos Henrique;  __Sistemas Operacionais de Tempo Real e sua Aplicação em Sistemas Embarcados, 1. ed.__, São Paulo: Blucher, 2019.<br><sub>Online: https://plataforma.bvirtual.com.br/Acervo/Publicacao/169968</sub>
 | <img src="./referencias/capas/silberschatz_2018.jpg" width="100px"> | [SILBERSCHATZ_2018] SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg; [__Operating System Concepts, 10. ed.__](https://archive.org/details/silberschatz-operating-system-concepts-10e-2018/), Wiley, 2018.
 | <img src="./referencias/capas/silberschatz_2013.jpg" width="100px"> | [SILBERSCHATZ_2013] SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg. [__Operating Systems Concepts, 9. ed.__](https://archive.org/details/operating-system-concepts/), John Wiley & Sons, 2013.
@@ -110,5 +110,11 @@
 | __Instalação__ | [![img](https://img.youtube.com/vi/oW7DzGhLfGM/default.jpg)](https://www.youtube.com/watch?v=oW7DzGhLfGM "[Safaa Al-Hayali] Windows 11 Setup without Microsoft Account \|\| 1:42, YouTube, Nov/2021") &nbsp; [![img](https://img.youtube.com/vi/f8maw1_GNQw/default.jpg)](https://www.youtube.com/watch?v=f8maw1_GNQw "[Adrenaline] PC sem suporte ao Windows 11: mostramos como resolver! \|\| 15:45, YouTube, Out/2021")
 | __WSL__ | [![img](https://img.youtube.com/vi/b1YBx1L8op4/default.jpg)](https://www.youtube.com/watch?v=b1YBx1L8op4 "[Scott Hanselman] Windows 11 runs Graphical Linux Apps out of the box with WSLg \|\| 14:07, YouTube, Out/2021") &nbsp; [![img](https://img.youtube.com/vi/ILagItXG0uI/default.jpg)](https://www.youtube.com/watch?v=ILagItXG0uI "Windows 11 roda Linux de forma direta \|\| 17:31, YouTube, Out/2021")
 | __Novidades__ | [![img](https://img.youtube.com/vi/cA6CnO9sVBY/default.jpg)](https://www.youtube.com/watch?v=cA6CnO9sVBY "[Diolinux] Windows 11 - Vale a pena atualizar do Windows 10? \|\| 17:42, YouTube") &nbsp; [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg)](https://www.youtube.com/watch?v=taZTeXRvwFQ "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021") &nbsp; [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg)](https://www.youtube.com/watch?v=_uVe3pU9yhw "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021") &nbsp; [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg)](https://www.youtube.com/watch?v=x_ehPsSn0Y4 "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021")
+
+&nbsp;
+
+| Thumb | Descrição |
+| :-: | --- |
+| [![img](https://img.youtube.com/vi/_7ky8o7rdWI/default.jpg)](https://www.youtube.com/watch?v=_7ky8o7rdWI) | <sup>[Liberdade VIP]</sup><br>[__A Modinha PERIGOSA de Querer Ser Programador__](https://www.youtube.com/watch?v=_7ky8o7rdWI)<br><sub>(29:10, YouTube, Ago/2022)</sub>
 
 &nbsp;

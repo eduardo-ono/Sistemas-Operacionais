@@ -1,6 +1,6 @@
 > Sistemas Operacionais > Conteúdo
 
-# Interface de Linha de Comando (Command Line Interface - CLI)
+# Interface da Linha de Comando (Command Line Interface - CLI)
 
 Prof. Eduardo Ono
 
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 }
 ```
 
-> A variável _argc_ armazena a quantidade de parâmetros recebidos pelo programa, armazenando pelo menos o valor 1, que corresponde ao _path_ do programa em execução.
+> A variável _argc_ armazena a quantidade de parâmetros recebidos pelo programa, armazenando pelo menos o valor 1, que corresponde ao _path_ e nome do programa em execução.
 
 > O vetor _argv_ armazena pelo menos uma string na posição 0, que corresponde ao _path_ completo do programa em execução.
 
@@ -42,7 +42,9 @@ int main(int argc, char *argv[])
 {
     int i;
 
-    printf("Quantidade de parametros: %d\n", argc);
+    printf("Numero total de argumentos: %d\n", argc);
+    printf("Numero de argumento passados: %d\n", argc - 1);
+
 
     for (i = 0; i < argc, i++)
         printf("%s\n", argv[i]);
