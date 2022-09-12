@@ -18,7 +18,7 @@ Prof. Eduardo Ono
     * Sistema Computacional
     * Sistema Operacional
 
-      > Um ___Sistema Operacional___ é um conjunto de gerenciadores dos componentes de um computador. Fornece também uma interface para que o usuário tenha acesso a esses componentes.
+      > Um __*Sistema Operacional*__ é um conjunto de gerenciadores dos componentes de um computador. Fornece também uma interface para que o usuário tenha acesso a esses componentes.
 
   * __História de Sistemas Operacionais__
     * Microsoft Windows

@@ -2,30 +2,27 @@
 
 # Processos e Threads
 
-Prof. Eduardo Ono
+__Prof. Eduardo Ono__
 
-<br>
-
-## Conceitos
-<br>
-
-* [Código Fonte TV] [Thread (entenda como sua aplicação funciona) // Dicionário do Programador](https://youtu.be/xNBMNKjpJzM) (YouTube, 11:55)
-
-<br>
+&nbsp;
 
 ## Tópicos
-<br>
 
-* Processos e Threads
-    * Algoritmo de Peterson
-* Threads em Linguagem C (POSIX)
+* ### Overview
+
+* ### Conceitos
+
+* ### Threads em Linguagem C (Padrão POSIX)
+
+    * Exemplos de programas
+
+        * Estrutura básica de um programa para o uso de threads
+
+* ### Análise de Desempenho
+
+    * Código para benchmark de programas
+    * Lei de Amdahl
+
 * Semáforos e Mutex
 
 <br>
-
-### Vídeos Recomendados
-<br>
-
-* [UNIVESP] [Sistemas Operacionais - Threads](https://www.youtube.com/watch?v=Tbwu55Iov5s) (YouTube, 23:55)
-
-* https://www.youtube.com/playlist?list=PLE638294EA3288272

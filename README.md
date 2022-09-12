@@ -22,8 +22,8 @@
 | 02 | 15/08 | Conceitos de Sistema e Sistema Operacional; Tipos e Estruturas de Sistemas Operacionais; Introdução aos comandos do terminal: Prompt de Comando e PowerShell no Windows e Bash no Linux.
 | 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]: `argc` e `argv`; Função `atoi()`; Exemplos: Soma de dois inteiros passados pela linha de comando, múltiplos parâmetros.
 | 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos de texto em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
-| 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Scripts em Bash no Linux; Concorrência e Paralelismo; Processos e Threads.
-| 06 | 12/09 | Programação de threads em C (padrão POSIX); Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
+| 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Concorrência e Paralelismo; Processos e Threads; Introdução à programação de threads em C (padrão POSIX).<br>Exemplos: [Funções no padrão POSIX para o uso de threads](./conteudo/05b-processos-e-threads/threads/exemplos/threads-00-funcoes-padrao-posix/); Estrutura básica de um programa para o uso de threads.
+| 06 | 12/09 | Técnicas de programação de threads (padrão POSIX); Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
 | 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport.
 | 08 | 26/09 | __1a. Avaliação__
 | 09 | 03/10 | Semana de Tecnologia e Inovação
