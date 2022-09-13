@@ -3,8 +3,8 @@
     Versão        : v0
     Descrição     :
     Desenvolvedor : Eduardo Ono
-    Criado em     : 11/09/2022
-    Atualizado em : 12/09/2022
+    Criado em     : 12/09/2022
+    Atualizado em : 13/09/2022
     Comentários   : Não utiliza threads.
 */
 
