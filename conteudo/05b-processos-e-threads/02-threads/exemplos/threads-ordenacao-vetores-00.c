@@ -1,41 +1,41 @@
 /*
-    Programa      : threads-ordenacao-vetores.c
-    Versão        :
+    Programa      : threads-ordenacao-vetores-v0.c
+    Versão        : v0
     Descrição     :
     Desenvolvedor : Eduardo Ono
     Criado em     : 11/09/2022
-    Atualizado em : 11/09/2022
-    Comentários   :
+    Atualizado em : 12/09/2022
+    Comentários   : Não utiliza threads.
 */
 
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <pthread.h>
 #include <time.h>
 
+#define N_MAX 500 // Número máximo de elementos do vetor
+
+// Protótipos das funções.
 void popularVetor(int v[], const int N);
 void imprimirVetor(int v[], const int N);
 void bubbleSort(int v[], const int N);
 
 int main()
 {
-    const int N = 50000;
-    int v[N];
-    pthread_t t0;
+    int v[N_MAX];
 
-    popularVetor(v, N);
+    popularVetor(v, N_MAX);
     printf("Vetor original:\n");
-    imprimirVetor(v, N);
-    bubbleSort(v, N);
+    imprimirVetor(v, N_MAX);
+    // Ordena o vetor em ordem crescente.
+    bubbleSort(v, N_MAX);
     printf("Vetor ordenado:\n");
-    imprimirVetor(v, N);
-    // pthread_create(&t0, NULL, f, NULL);
-    // pthread_join(t0, NULL);
+    imprimirVetor(v, N_MAX);
 
     return 0;
 }
 
+// Popula o vetor v com valores inteiros aleatórios no intervalo [0, 1000).
 void popularVetor(int v[], const int N)
 {
     srand(time(0));
@@ -45,17 +45,22 @@ void popularVetor(int v[], const int N)
     }
 }
 
+// Imprime os elementos do vetor.
+//  Caso N > 100, imprime somente os 10 primeiros e os 10 últimos elementos.
 void imprimirVetor(int v[], const int N)
 {
-    for (int i = 0; i < N; i++)
+    int n = 10;
+
+    if (N > 100)
     {
-        printf("%d  ", v[i]);
-        if (N > 100 && i == 10)
-        {
-            printf("...  ");
-            i = N - 11;
-        }
+        for (int i = 0; i < n; i++)
+            printf("%d  ", v[i]);
+        printf("...  ");
     }
+    else
+        n = N;
+    for (int i = N - n; i < N; i++)
+        printf("%d  ", v[i]);
     printf("\n\n");
 }
 
