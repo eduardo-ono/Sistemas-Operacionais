@@ -13,7 +13,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define N_MAX 500 // Número máximo de elementos do vetor
+ // Número máximo de elementos do vetor, limitado pela memória "stack".
+#define N_MAX 500
 
 // Protótipos das funções.
 void popularVetor(int v[], const int N);
@@ -45,8 +46,8 @@ void popularVetor(int v[], const int N)
     }
 }
 
-// Imprime os elementos do vetor.
-//  Caso N > 100, imprime somente os 10 primeiros e os 10 últimos elementos.
+// Imprime os elementos do vetor v.
+// Caso N > 100, imprime somente os n = 10 primeiros e os n = 10 últimos elementos.
 void imprimirVetor(int v[], const int N)
 {
     int n = 10;
