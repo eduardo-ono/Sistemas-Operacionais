@@ -16,8 +16,6 @@ __Prof. Eduardo Ono__
 
     * Exemplos de programas
 
-        * Estrutura básica de um programa para o uso de threads
-
 * ### Análise de Desempenho
 
     * Código para benchmark de programas

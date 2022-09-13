@@ -1,5 +1,5 @@
 /*
-    Programa      : threads-divisores-v0.c
+    Programa      : threads-vetor-divisores-v0.c
     Versão        : 
     Descrição     : 
     Desenvolvedor : Eduardo Ono
@@ -32,6 +32,7 @@ int main()
     return 0;
 }
 
+// Determina os divisores do inteiro n e retorna o número de divisores.
 int determinarDivisores(long long int num, long long int v[], const int N)
 {
     int i = 0;

@@ -1,7 +1,7 @@
 /*
-Programa      : threads-funcao-padrao-posix.c
+Programa      : funcao-padrao-posix-00.c
 Versão        : 
-Descrição     : 
+Descrição     : Função que imprime 100 vezes um número inteiro.
 Desenvolvedor : Eduardo Ono
 Criado em     : 05/09/2022
 Atualizado em : 
@@ -12,38 +12,25 @@ Comentários   : Não utiliza threads.
 #include <stdbool.h>
 #include <stdlib.h>
 
-// Protótipos das funções.
-void *f1(void *p);
-void *f2(void *p);
+// Protótipos da funções.
+void *f(void *p);
 
 int main()
 {
-    int num1 = 1, num2 = 2;
+    int numero = 10;
 
-    f1((void *)&num1);
-    f2((void *)&num2);
+    f((void *)&numero);
 
     return 0;
 }
 
-void *f1(void *p)
+// Função no padrão POSIX para o uso de threads.
+void *f(void *p)
 {
-    int *pInt = (int *)p;
-    int num = *(pInt);
+    int *pInt = (int *)p; // pInt "aponta" para a variável inteira numero
+    int num = *(pInt); // num recebe 10, o valor da variável apontada por pInt
 
-    for (int i = 0; i < 500; i++)
-        printf("%d  ", num);
-    printf("\n");
-
-    return NULL;
-}
-
-void *f2(void *p)
-{
-    int *pInt = (int *)p;
-    int num = *(pInt);
-
-    for (int i = 0; i < 500; i++)
+    for (int i = 0; i < 100; i++)
         printf("%d  ", num);
     printf("\n");
 
