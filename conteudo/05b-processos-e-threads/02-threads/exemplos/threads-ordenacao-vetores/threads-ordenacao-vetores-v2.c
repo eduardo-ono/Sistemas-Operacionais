@@ -1,38 +1,58 @@
 /*
     Programa      : threads-ordenacao-vetores-v0.c
-    Versão        : v0
+    Versão        : v1
     Descrição     :
     Desenvolvedor : Eduardo Ono
     Criado em     : 12/09/2022
     Atualizado em : 13/09/2022
-    Comentários   : Não utiliza threads.
+    Comentários   : Threads no padrão POSIX.
 */
 
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
+#include <pthread.h>
 
  // Número máximo de elementos do vetor, limitado pela memória "stack".
-#define N_MAX 500
+#define N_MAX 1000
+
+typedef struct
+{
+    int length;
+    int v[N_MAX];
+} Estrutura;
 
 // Protótipos das funções.
 void popularVetor(int v[], const int N);
 void imprimirVetor(int v[], const int N);
-void bubbleSort(int v[], const int N);
+void *bubbleSort(void *p);
 
 int main()
 {
-    int v[N_MAX];
+    Estrutura obj1, obj2;
+    pthread_t t1, t2;
 
-    srand(time(0));
-    popularVetor(v, N_MAX);
-    printf("Vetor original:\n");
-    imprimirVetor(v, N_MAX);
-    // Ordena o vetor em ordem crescente.
-    bubbleSort(v, N_MAX);
-    printf("Vetor ordenado:\n");
-    imprimirVetor(v, N_MAX);
+    obj1.length = N_MAX;
+    obj2.length = N_MAX;
+    popularVetor(obj1.v, obj1.length);
+    popularVetor(obj2.v, obj2.length);
+    printf("Vetor original 1:\n");
+    imprimirVetor(obj1.v, obj1.length);
+    printf("Vetor original 2:\n");
+    imprimirVetor(obj2.v, obj2.length);
+
+    // Ordena os vetores em ordem crescente.
+    pthread_create(&t1, NULL, bubbleSort, (void *)&obj1);
+    pthread_create(&t2, NULL, bubbleSort, (void *)&obj2);
+
+    pthread_join(t1, NULL);
+    printf("Vetor ordenado 1:\n");
+    imprimirVetor(obj1.v, obj1.length);
+
+    pthread_join(t2, NULL);
+    printf("Vetor ordenado 1:\n");
+    imprimirVetor(obj1.v, obj1.length);
 
     return 0;
 }
@@ -40,10 +60,14 @@ int main()
 // Popula o vetor v com valores inteiros aleatórios no intervalo [0, 1000).
 void popularVetor(int v[], const int N)
 {
+    static time_t *seed;
+
+    srand(time(&seed));
     for (int i = 0; i < N; i++)
     {
         v[i] = rand() % 1000;
     }
+    seed++;
 }
 
 // Imprime os elementos do vetor v.
@@ -66,8 +90,11 @@ void imprimirVetor(int v[], const int N)
 }
 
 // BubbleSort otimizado.
-void bubbleSort(int v[], const int N)
+void *bubbleSort(void *p)
 {
+    Estrutura *pObj = (Estrutura *)p;
+    const int N = pObj->length; // const int N = (*pObj).length;
+    int *v = pObj->v; // int *v = (*pObj).v;
     bool trocou = true;
     int aux;
 
@@ -85,4 +112,6 @@ void bubbleSort(int v[], const int N)
             }
         }
     }
+
+    return NULL;
 }
