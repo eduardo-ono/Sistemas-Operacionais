@@ -8,8 +8,10 @@ __Prof. Eduardo Ono__
 
 ## Tópicos
 
+* ### [Funções no Padrão POSIX para o Uso de Threads](./threads-00-funcoes-padrao-posix/)
+
 * ### [Estrutura Básica de um Programa em C para o Uso de Threads](./threads-01-estrutura-basica/)
 
-* ### [Ordenação de Vetores](./)
+* ### [Ordenação de Vetores Usando Threads](./threads-ordenacao-vetores/)
 
 &nbsp;

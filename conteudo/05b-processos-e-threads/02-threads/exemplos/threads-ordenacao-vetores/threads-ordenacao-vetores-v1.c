@@ -34,6 +34,7 @@ int main()
     pthread_t t1;
 
     obj.length = N_MAX;
+    srand(time(0));
     popularVetor(obj.v, obj.length);
     printf("Vetor original:\n");
     imprimirVetor(obj.v, obj.length);
@@ -51,7 +52,6 @@ int main()
 // Popula o vetor v com valores inteiros aleatórios no intervalo [0, 1000).
 void popularVetor(int v[], const int N)
 {
-    srand(time(0));
     for (int i = 0; i < N; i++)
     {
         v[i] = rand() % 1000;

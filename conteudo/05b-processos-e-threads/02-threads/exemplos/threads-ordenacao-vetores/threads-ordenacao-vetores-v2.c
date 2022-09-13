@@ -15,7 +15,7 @@
 #include <pthread.h>
 
  // Número máximo de elementos do vetor, limitado pela memória "stack".
-#define N_MAX 1000
+#define N_MAX 50000
 
 typedef struct
 {
@@ -35,6 +35,7 @@ int main()
 
     obj1.length = N_MAX;
     obj2.length = N_MAX;
+    srand(time(0));
     popularVetor(obj1.v, obj1.length);
     popularVetor(obj2.v, obj2.length);
     printf("Vetor original 1:\n");
@@ -60,14 +61,10 @@ int main()
 // Popula o vetor v com valores inteiros aleatórios no intervalo [0, 1000).
 void popularVetor(int v[], const int N)
 {
-    static time_t *seed;
-
-    srand(time(&seed));
     for (int i = 0; i < N; i++)
     {
         v[i] = rand() % 1000;
     }
-    seed++;
 }
 
 // Imprime os elementos do vetor v.
