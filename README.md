@@ -23,15 +23,16 @@
 | 03 | 22/08 | [Parâmetros de um programa em C por linha de comando]: `argc` e `argv`; Função `atoi()`; Exemplos: Soma de dois inteiros passados pela linha de comando, múltiplos parâmetros.
 | 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos de texto em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
 | 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Concorrência e Paralelismo; Processos e Threads; Introdução à programação de threads em C (padrão POSIX).<br>Exemplos: [Funções no padrão POSIX para o uso de threads](./conteudo/05b-processos-e-threads/threads/exemplos/threads-00-funcoes-padrao-posix/); Estrutura básica de um programa para o uso de threads.
-| 06 | 12/09 | Técnicas de programação de threads (padrão POSIX); Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
-| 07 | 19/09 | Semáforos e Mutex; Algoritmo da Padaria de Lamport.
+| 06 | 12/09 | Técnicas de programação de threads (padrão POSIX);
+| 07 | 19/09 | Análise de desempenho usando threads; Lei de Amdahl.
 | 08 | 26/09 | __1a. Avaliação__
 | 09 | 03/10 | Semana de Tecnologia e Inovação
-| 10 |  | Gerenciamento de Processos; Escalonamento de Processos.
-| 11 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual.
-| 12 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos.
-| 13 |  | Gerenciamento de Periféricos; Técnicas de E/S.
-| 14 |  | Integridade e Segurança.
+| 08 | ----  | Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
+| 11 |  | Gerenciamento de Processos; Escalonamento de Processos.
+| 12 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual.
+| 13 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos.
+| 14 |  | Gerenciamento de Periféricos; Técnicas de E/S.
+| 15 |  | Integridade e Segurança.
 
 [Parâmetros de um programa em C por linha de comando]: ./conteudo/02-cli/README.md
 [Manipulação de arquivos em linguagem C]: ./conteudo/02-cli/arquivos-em-c/
@@ -89,6 +90,7 @@
 | Thumb | Descrição |
 | :-: | --- |
 | [![img](https://img.youtube.com/vi/Gk-9Fd2mEnI/default.jpg)](https://youtu.be/Gk-9Fd2mEnI) | <sup>[MIT Video Productions]</sup> [Steve Jobs President & CEO, NeXT Computer Corp and Apple. MIT Sloan Distinguished Speaker Series](https://www.youtube.com/watch?v=Gk-9Fd2mEnI)<br><sub>(1:12:53, YouTube, Dez/2017)</sub>
+| [![img](https://img.youtube.com/vi/_7ky8o7rdWI/default.jpg)](https://www.youtube.com/watch?v=_7ky8o7rdWI) | <sup>[Liberdade VIP]</sup><br>[__A Modinha PERIGOSA de Querer Ser Programador__](https://www.youtube.com/watch?v=_7ky8o7rdWI)<br><sub>(29:10, YouTube, Ago/2022)</sub>
 | [![img](https://img.youtube.com/vi/ZAQtwFpkksw/default.jpg)](https://youtu.be/ZAQtwFpkksw) | <sup>[60 second]</sup> [Um grupo de cinco macacos e dois cientistas](https://www.youtube.com/watch?v=ZAQtwFpkksw)<br><sub>(1:50, YouTube, Fev/2013)</sub>
 
 &nbsp;
@@ -110,11 +112,5 @@
 | __Instalação__ | [![img](https://img.youtube.com/vi/oW7DzGhLfGM/default.jpg)](https://www.youtube.com/watch?v=oW7DzGhLfGM "[Safaa Al-Hayali] Windows 11 Setup without Microsoft Account \|\| 1:42, YouTube, Nov/2021") &nbsp; [![img](https://img.youtube.com/vi/f8maw1_GNQw/default.jpg)](https://www.youtube.com/watch?v=f8maw1_GNQw "[Adrenaline] PC sem suporte ao Windows 11: mostramos como resolver! \|\| 15:45, YouTube, Out/2021")
 | __WSL__ | [![img](https://img.youtube.com/vi/b1YBx1L8op4/default.jpg)](https://www.youtube.com/watch?v=b1YBx1L8op4 "[Scott Hanselman] Windows 11 runs Graphical Linux Apps out of the box with WSLg \|\| 14:07, YouTube, Out/2021") &nbsp; [![img](https://img.youtube.com/vi/ILagItXG0uI/default.jpg)](https://www.youtube.com/watch?v=ILagItXG0uI "Windows 11 roda Linux de forma direta \|\| 17:31, YouTube, Out/2021")
 | __Novidades__ | [![img](https://img.youtube.com/vi/cA6CnO9sVBY/default.jpg)](https://www.youtube.com/watch?v=cA6CnO9sVBY "[Diolinux] Windows 11 - Vale a pena atualizar do Windows 10? \|\| 17:42, YouTube") &nbsp; [![img](https://img.youtube.com/vi/taZTeXRvwFQ/default.jpg)](https://www.youtube.com/watch?v=taZTeXRvwFQ "[ThioJoe] Windows 11 For Not-New Computers: TPM Compatibility Guide \|\| 12:27, YouTube, Jun/2021") &nbsp; [![img](https://img.youtube.com/vi/_uVe3pU9yhw/default.jpg)](https://www.youtube.com/watch?v=_uVe3pU9yhw "[Pureinfotech] Windows 11 (Sun Valley): biggest new features and changes, so far \|\| 24:20, YouTube, Jun/2021") &nbsp; [![img](https://img.youtube.com/vi/x_ehPsSn0Y4/default.jpg)](https://www.youtube.com/watch?v=x_ehPsSn0Y4 "[ThioJoe] Windows 11 LEAKED! - Installing, Testing, and Biggest Changes \|\| 22:20, YouTube, Jun/2021")
-
-&nbsp;
-
-| Thumb | Descrição |
-| :-: | --- |
-| [![img](https://img.youtube.com/vi/_7ky8o7rdWI/default.jpg)](https://www.youtube.com/watch?v=_7ky8o7rdWI) | <sup>[Liberdade VIP]</sup><br>[__A Modinha PERIGOSA de Querer Ser Programador__](https://www.youtube.com/watch?v=_7ky8o7rdWI)<br><sub>(29:10, YouTube, Ago/2022)</sub>
 
 &nbsp;

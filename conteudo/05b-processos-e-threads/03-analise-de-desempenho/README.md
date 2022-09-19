@@ -2,26 +2,31 @@
 
 # Análise de Desempenho
 
-Prof. Eduardo Ono
+__Prof. Eduardo Ono__
 
-<br>
+&nbsp;
 
 ## Análise de Desempenho em Threads
 
 ### Medindo o ganho de desempenho com paralelismo em C
 
 ```c
-#include <time.h> // clock_t
+#include <time.h> // clock_t, CLOCKS_PER_SEC
 
-clock_t inicio, fim;
-double tempo;
+double benchmark(int flag)
+{
+    static clock_t inicio;
+    clock_t fim;
+    double tempo = 0;
 
-inicio = clock();
-/*
-  Código a ser mensurado aqui.
-*/
-fim = clock();
-tempo = ((double)(fim - inicio) / CLOCKS_PER_SECOND;
+    if (flag)
+        inicio = clock();
+    else
+        fim = clock();
+    tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
+
+    return tempo;
+}
 ```
 
-<br>
+&nbsp;
