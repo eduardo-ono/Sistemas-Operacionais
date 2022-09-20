@@ -24,10 +24,11 @@
 | 04 | 29/08 | Funções `atof()` e `toupper()`; Manipulação de arquivos de texto em linguagem C; Leitura de um arquivo de texto; Funções `feof()`, `fopen()`, `fclose()`; [Exemplos de programas](./conteudo/02-cli/arquivos-em-c/).
 | 05 | 05/09 | Arquivos de Lote (.bat) no Windows; Concorrência e Paralelismo; Processos e Threads; Introdução à programação de threads em C (padrão POSIX).<br>Exemplos: [Funções no padrão POSIX para o uso de threads](./conteudo/05b-processos-e-threads/threads/exemplos/threads-00-funcoes-padrao-posix/); Estrutura básica de um programa para o uso de threads.
 | 06 | 12/09 | Técnicas de programação de threads (padrão POSIX);
-| 07 | 19/09 | Análise de desempenho usando threads; Lei de Amdahl.
+| 07 | 19/09 | Análise de desempenho com o uso de threads; <s>Lei de Amdahl</s>.<br>Exemplos:<br>[`benchmark-ordenacao-vetores.c`](./conteudo/05b-processos-e-threads/03-analise-de-desempenho/exemplos/benchmark-ordenacao-vetores.c)<br>[`threads-ordenacao-vetores-2threads.c`](./conteudo/05b-processos-e-threads/03-analise-de-desempenho/exemplos/threads-ordenacao-vetores-2threads.c)
+| -- | 20/09 | _Aula extra_. Revisão para a prova; Análise de desempenho com o uso de threads (cont.).<br> Exemplos:<br> [`threads-ordenacao-vetores-nthreads.c`](./conteudo/05b-processos-e-threads/03-analise-de-desempenho/exemplos/threads-ordenacao-vetores-nthreads.c)
 | 08 | 26/09 | __1a. Avaliação__
 | 09 | 03/10 | Semana de Tecnologia e Inovação
-| 08 | ----  | Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
+| 08 |  ---  | Região Crítica e Exclusão Mútua; Algoritmo de Peterson.
 | 11 |  | Gerenciamento de Processos; Escalonamento de Processos.
 | 12 |  | Gerenciamento de Memória: Memória Principal e Secundária; Memória Virtual.
 | 13 |  | Gerenciamento de Arquivos: Sistemas de Arquivos; Implementação do Sistema de Arquivos.

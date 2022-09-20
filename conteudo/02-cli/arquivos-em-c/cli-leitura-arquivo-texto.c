@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     FILE *file_handle;
     char buffer[2049];
-    char filename[257];
+    char filename[256];
 
     if (argc == 2)
         strcpy(filename, argv[1]);

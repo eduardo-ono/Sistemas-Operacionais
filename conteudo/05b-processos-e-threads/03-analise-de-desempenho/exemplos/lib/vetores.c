@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <time.h>
 
 // Popula o vetor v com valores inteiros aleatórios no intervalo [0, 1000).
 void popularVetor(int v[], const int N)
@@ -58,7 +59,7 @@ void selectionSortNaoOtimizado(int v[], const int N)
 
     for (int i = 0; i < N - 1; i++ )
         for (int j = i + 1; j < N; j++)
-            if (v[i] < v[j])
+            if (v[j] < v[i])
             {
                 aux = v[i];
                 v[i] = v[j];
