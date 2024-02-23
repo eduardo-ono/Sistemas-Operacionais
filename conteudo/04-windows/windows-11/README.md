@@ -18,3 +18,4 @@ Prof. Eduardo Ono
   Outra forma:
 
   Abrir a janela Configurações > Atualização e Segurança > Segurança do Windows > Segurança do Dispositivo > Detalhes do Processador de Segurança
+

@@ -4,11 +4,11 @@
 
 Prof. Eduardo Ono
 
-<br>
+&nbsp;
 
 ## Conceitos
 
-<br>
+&nbsp;
 
 ## Principais Sistemas de Arquivos
 
@@ -38,7 +38,7 @@ Prof. Eduardo Ono
 | Joliet   | 2GB / 4GB (FAT16B) | 32 caracteres                    | 32 (case-sensitive) | Suporta Unicode
 | UDF      | 16 EB              | 16TB                             | 255 | Universal Disk Format <br> Susbstitui o ISO 9660
 
-<br>
+&nbsp;
 
 ## Vídeos de Apoio
 
@@ -46,9 +46,11 @@ Prof. Eduardo Ono
 | :-: | --- |
 | ![](https://img.youtube.com/vi/KPWtWB0x9rI/default.jpg)| [Bóson Treinamentos] [__O que é um Sistema de Arquivos - Curso de Hardware__](https://www.youtube.com/watch?v=KPWtWB0x9rI) \|\| 16:47, YouTube, Dez/2019.
 | ![](https://img.youtube.com/vi/_h30HBYxtws/default.jpg)| [ExplainingComputers] [__Explaining File Systems: NTFS, exFAT, FAT32, ext4 & More__](https://www.youtube.com/watch?v=_h30HBYxtws) \|\| 11:04, YouTube.
+| [![img](https://img.youtube.com/vi/bYjQakUxeVY/default.jpg)](https://www.youtube.com/watch?v=bYjQakUxeVY) | <sup>[PowerCert Animated Videos]</sup><br>[__FAT32 vs exFAT vs NTFS - Windows File Systems__](https://www.youtube.com/watch?v=bYjQakUxeVY)<br><sub>(8:01, YouTube, 21/Abr/2023)</sub>
 
-<br>
+&nbsp;
 
 ## Bibliografia
 
-<br>
+&nbsp;
+

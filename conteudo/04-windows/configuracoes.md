@@ -10,6 +10,7 @@ Prof. Eduardo Ono
 
 | Comando | Descrição |
 | :-: | --- |
+| `devmgmt.msc` | Abre janela `Gerenciador de Dispositivos`
 | `diskmgmt.msc` | Abre janela `Gerenciamento de Disco`
 | `powercfg.cpl` | Abre a janela `Opções de Energia`
 
