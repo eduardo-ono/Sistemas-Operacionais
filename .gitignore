@@ -1,0 +1,24 @@
+*
+!*.*
+!*/
+*.exe
+*.o
+*.mp4
+*.mkv
+[Tt]mp.*
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/*.ipynb_checkpoints/
+.vscode
+backup.bat
+Alunos/
+Chamada/
+[Bb]ackup/
+Bibliografia/
+EaD/
+Provas/
+[Tt]mp
+Vídeos/
+mapas-mentais/*.mm
+
+# git rm -r --cached .ipynb_checkpoints

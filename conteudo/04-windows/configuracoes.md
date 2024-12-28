@@ -6,13 +6,16 @@ Prof. Eduardo Ono
 
 &nbsp;
 
-## Acesso às Janelas da Interface Gráfica
+## Acesso às Janelas da Interface Gráfica do Windows
 
-| Comando | Descrição |
-| :-: | --- |
-| `devmgmt.msc` | Abre janela `Gerenciador de Dispositivos`
-| `diskmgmt.msc` | Abre janela `Gerenciamento de Disco`
-| `powercfg.cpl` | Abre a janela `Opções de Energia`
+| Comando | Tela/Janela |
+| --- | --- |
+| `devmgmt.msc` | Gerenciador de Dispositivos |
+| `diskmgmt.msc` | Gerenciamento de Disco |
+| `powercfg.cpl` | Opções de Energia |
+| `shell:appsfolder` | Applications |
+
+&nbsp;
 
 ## Habilitar/Desabilitar o Controle de Hibernação no Menu Iiniciar
 
@@ -28,7 +31,7 @@ powercfg.cpl
 
 Em Hibernação, habilitar/desabilitar `Mostrar no munu iniciar`.
 
-<br>
+&nbsp;
 
 ## Habilitar/Desabilitar a Hibernação
 
@@ -58,9 +61,9 @@ Em Hibernação, habilitar/desabilitar `Mostrar no munu iniciar`.
   powercfg -h on
   ```
 
-* god mode
+* "god mode": Criar o diretórtio a seguir no Desktop
 
-```
+```cmd
 GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 ```
 
