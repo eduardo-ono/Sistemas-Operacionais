@@ -6,14 +6,21 @@ Prof. Eduardo Ono
 
 &nbsp;
 
-## Acesso às Janelas da Interface Gráfica do Windows
+## Acesso às Janelas da Interface Gráfica à partir da CLI
 
 | Comando | Tela/Janela |
 | --- | --- |
 | `devmgmt.msc` | Gerenciador de Dispositivos |
 | `diskmgmt.msc` | Gerenciamento de Disco |
+| `eventvwr.msc` | Visualizador de Eventos |
+| `lusrmgr.msc` | Usuários e Grupos Locais (Windows Pro+) |
+| `tpm.msc` | Gerenciamento do Trusted Platform Module (TPM) no Computador Local |
 | `powercfg.cpl` | Opções de Energia |
 | `shell:appsfolder` | Applications |
+| `shell:startup` | Diretório inicializar do usuário corrente |
+| `shell:common startup` | Diretório inicializar global |
+
+* Obs.: Para executar um comando como administrador na janela Executar, usar a combinação <kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Enter</kbd> após entrar com o comando.
 
 &nbsp;
 
